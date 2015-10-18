@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript">
+            $("document").ready(function() {
+                
+                var url ="Admin/Activity/activityOneDetail2?id=1";
+                var data={};
+                
+                $.getJSON(url,data,function(res){
+                	//var jsonObj = eval("("+res+")");
+                	$("#sn").val(res.data.activity.sn);
+                	$("#cash").val(res.data.activity.cash);
+                });
+            });
+        </script>
+      cash:<input type="text" name="cash" id="cash" />
+       sn:<input type="text" name="sn" id="sn" />
+    </body>
+</html>
