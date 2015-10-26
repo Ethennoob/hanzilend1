@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>骰子游戏</title>
+        <style>
+            body{ text-align:center;}
+            #can{ border:1px solid black;}
+        </style>
+    </head>
+    <body>
+        <canvas id='can' width='500px' height='400px'></canvas>
+        <br>
+        <br>
+        <input type='button' id='btnStart' value='开始'>
+    </body>
+</html>
+
+<script>
+//定时器变量
+    var tidck =null;
+    //存放图片的容器
+    var can;
+    //画布
+    var ctx;
+    //骰子每次的点数的数组
+    var SumArray = [];
+    //摇骰子点数的总次数
+    //var sum  = 0;
+    //每次骰子点数的和
+    var ranSum = 0;
+    //骰子变化次数
+    var count = 0;
+    //圆点的坐标
+    var pointCoordinates = [[20,20],[[10,10],[30,30]],[[10,10],[20,20],[30,30]],[[10,10],[10,30],[30,10],[30,30]],[[10,10],[10,30],[20,20],[30,10],[30,30]],[[10,10],[10,20],[10,30],[30,10],[30,20],[30,30]]];
+    //骰子的坐标
+    var diceCoordinates = [[40,10],[120,10],[180,10],[250,10],[330,10],[400,10]];/**/
+    window.onload = function(){
+        can = document.getElementById('can');
+        
+        ctx = can.getContext("2d");
+        /*初始化骰子*/
+            /*ctx.clearRect(0,0,can.width,can.height);
+            for(var i=0;i<diceCoordinates.length;i++){
+                ctx.fillStyle = 'orange';
+                ctx.fillRect(diceCoordinates[i][0],diceCoordinates[i][1],40,40);            
+                draw(diceCoordinates[i],i,pointCoordinates[i]);
+            }*/
+        loadCoordinates();
+        /*初始化骰子*/
+        document.getElementById('btnStart').onclick = function(){
+            //alert(SumArray.length);
+            if(SumArray.length<=8){
+                //sum++;
+                count = 0;        
+                tidck = setInterval(drawCoordinates,100);
+            }
+            else{
+                if(config("摇骰子的次数不能大于8次,是否清空重新摇骰子？")){
+                    //sum = 0;
+                    count = 0;
+                    SumArray.splice(0,SumArray.length);
+                    loadCoordinates();
+                    tidck = setInterval(drawCoordinates,100);
+                }
+            }                        
+        };
+    }
+    //初始化骰子
+    function loadCoordinates(){
+        ctx.clearRect(0,0,can.width,can.height);
+        for(var i=0;i<diceCoordinates.length;i++){
+            ctx.fillStyle = 'orange';
+            ctx.fillRect(diceCoordinates[i][0],diceCoordinates[i][1],40,40);            
+            draw(diceCoordinates[i],i,pointCoordinates[i]);
+        }
+    }
+    //开始摇骰子
+    function drawCoordinates()
+    {
+        //执行一定次数后放慢速度(使用修改定时执行的时间来达到效果)
+        if(count == 30){
+            //清除定时执行
+            window.clearInterval(tidck);
+            //给定时执行赋新的时间
+            tidck = setInterval(drawCoordinates,200);
+        }
+        else if(count == 45){
+            window.clearInterval(tidck);
+            tidck = setInterval(drawCoordinates,500);
+        }
+        else if(count == 48){    
+            window.clearInterval(tidck);
+            tidck = setInterval(drawCoordinates,800);
+        }
+        else if(count >= 50){    
+            window.clearInterval(tidck);
+            //alert("摇骰子完成");
+            //将每次的值放进数组
+            SumArray.push(ranSum);            
+            drawText(ranSum);
+        }
+        else{
+            //每次的时候先把上一次的点数清零
+            ranSum = 0;
+            //清理画布
+            ctx.clearRect(0,0,can.width,60);
+            for(var i=0;i<diceCoordinates.length;i++){
+                //画笔颜色
+                ctx.fillStyle = 'orange';
+                //画正方形
+                ctx.fillRect(diceCoordinates[i][0],diceCoordinates[i][1],40,40);    
+                //获取随机数
+                var ran =  Math.floor(Math.random()*6);                
+                ranSum+=ran+1;
+                draw(diceCoordinates[i],ran,pointCoordinates[ran]);/**/
+            }            
+        }
+    count++;    
+    }
+    //画骰子的点
+    function draw(dice,ran,drowArray){
+        ctx.fillStyle = 'red';
+        for(var i = 0;i<=ran;i++){        
+            var array = drowArray[i];        
+            ctx.beginPath();
+            if(ran==0)
+            {
+                //alert(drowArray[0]);
+                ctx.arc(drowArray[0]+dice[0],drowArray[1]+dice[1],5,0,Math.PI*2,true);
+            }
+            else
+            {
+                
+                ctx.arc(array[0]+dice[0],array[1]+dice[1],5,0,Math.PI*2,true);
+            }
+            ctx.closePath();
+            ctx.fill();
+        }
+    }
+    function drawText(ranSum){
+        ctx.font="30px Verdana";
+        ctx.fillText("第"+(SumArray.length)+"次摇的点数是："+SumArray[SumArray.length-1]+"      "+(SumArray[SumArray.length-1]>18?"大":"小"),40,90+40*(SumArray.length-1));
+
+    }
+</script>

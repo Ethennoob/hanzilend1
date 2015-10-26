@@ -213,6 +213,23 @@ class MyVerify {
     		return false;
     	return preg_match($match, $value);
     }
+
+    /**
+     * 验证图片文件类型,$value传递值
+     * @param string $value
+     * @param string $match
+     * @return boolean
+     */
+    static function isImg($filename){
+        $alltypes = '.gif|.jpeg|.png|.bmp|.jpg';//定义检查的图片类型
+        if(file_exists($filename)){
+            $result= getimagesize($filename);//获取图像信息
+            $ext = image_type_to_extension($result);//取得图像类型的文件后缀
+            return stripos($alltypes,$ext);//查找图像后缀在字符串中第一次出现的位置
+        }else{
+            return false;
+        }
+    }
     
     /**
      * 包含验证

@@ -1,0 +1,282 @@
+2015/10/22 11:56:47----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 11:56:47----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 11:58:03----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 11:58:03----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 13:12:06----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 13:12:06----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 13:14:14----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 13:14:14----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 13:22:39----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 13:22:39----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 13:50:12----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 10 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 13:50:12----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 10 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 13:50:17----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 13:50:17----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 13:51:46----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = null limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 13:51:46----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = null limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 13:52:04----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = null limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 13:52:04----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = null limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 13:52:32----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = null limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 13:52:32----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = null limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 13:52:50----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 13:52:50----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 14:04:25----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 14:04:25----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 14:04:50----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 14:04:50----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 14:05:41----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 0 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 14:05:41----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 0 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 14:05:50----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 0 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 14:05:50----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 0 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 14:06:04----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 14:06:04----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'id' in 'where clause'
+2015/10/22 14:06:46----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND article_id = 14 limit 0, 1
+
+2015/10/22 14:07:14----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND article_id = 14 limit 0, 1
+
+2015/10/22 14:10:00----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'article_id' in 'field list'
+2015/10/22 14:10:00----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'article_id' in 'field list'
+2015/10/22 14:10:34----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'article_id' in 'field list'
+2015/10/22 14:10:34----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'article_id' in 'field list'
+2015/10/22 14:10:35----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'article_id' in 'field list'
+2015/10/22 14:10:35----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'article_id' in 'field list'
+2015/10/22 14:10:35----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'article_id' in 'field list'
+2015/10/22 14:10:35----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'article_id' in 'field list'
+2015/10/22 14:10:36----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'article_id' in 'field list'
+2015/10/22 14:10:36----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'article_id' in 'field list'
+2015/10/22 14:10:36----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'article_id' in 'field list'
+2015/10/22 14:10:36----
+select `article_id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+Unknown column 'article_id' in 'field list'
+2015/10/22 14:11:23----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+
+2015/10/22 14:31:09----
+select `id` from `article` where  id = 14 AND is_on = 1 limit 0, 1
+
+2015/10/22 14:31:09----
+update `article` set `update_time`=? where  id = 14
+
+2015/10/22 14:31:24----
+select `id` from `article` where  id = 14 AND is_on = 1 limit 0, 1
+
+2015/10/22 14:31:25----
+update `article` set `update_time`=? where  id = 14
+
+2015/10/22 14:31:35----
+select `id` from `article` where  id = 14 AND is_on = 1 limit 0, 1
+
+2015/10/22 14:31:35----
+update `article` set `update_time`=? where  id = 14
+
+2015/10/22 14:33:56----
+select `id` from `article` where  id = 14 AND is_on = 1 limit 0, 1
+
+2015/10/22 14:33:56----
+update `article` set `update_time`=? where  id = 14
+
+2015/10/22 14:34:37----
+select `id` from `article` where  id = 14 AND is_on = 1 limit 0, 1
+
+2015/10/22 14:34:37----
+update `article` set `update_time`=? where  id = 14
+
+2015/10/22 14:34:52----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 0 limit 0, 1
+
+2015/10/22 14:34:55----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+
+2015/10/22 14:35:42----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+
+2015/10/22 14:38:56----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+
+2015/10/22 14:39:16----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+
+2015/10/22 14:39:24----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+
+2015/10/22 14:39:25----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+
+2015/10/22 14:39:32----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+
+2015/10/22 14:40:35----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+
+2015/10/22 14:40:53----
+select `id` from `article` where  id = 0 AND is_on = 1 limit 0, 1
+
+2015/10/22 14:41:28----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+
+2015/10/22 14:41:49----
+select `id` from `article` where  id = 0 AND is_on = 1 limit 0, 1
+
+2015/10/22 14:43:07----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+
+2015/10/22 14:43:08----
+select `id` from `article` where  id = 0 AND is_on = 1 limit 0, 1
+
+2015/10/22 14:43:11----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+
+2015/10/22 14:57:32----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+
+2015/10/22 14:57:34----
+select `id` from `article` where  id = 0 AND is_on = 1 limit 0, 1
+
+2015/10/22 14:58:15----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+
+2015/10/22 14:58:16----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+
+2015/10/22 14:58:18----
+select `id` from `article` where  id = 14 AND is_on = 1 limit 0, 1
+
+2015/10/22 14:58:18----
+update `article` set `cat_id`=?,`title`=?,`content`=?,`Url`=?,`update_time`=? where  id = 14
+
+2015/10/22 14:58:22----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+
+2015/10/22 14:58:37----
+select `id` from `article` where  id = 14 AND is_on = 1 limit 0, 1
+
+2015/10/22 14:58:37----
+update `article` set `cat_id`=?,`title`=?,`content`=?,`Url`=?,`update_time`=? where  id = 14
+
+2015/10/22 14:58:40----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+
+2015/10/22 14:58:43----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 14 limit 0, 1
+
+2015/10/22 15:01:58----
+select `id` from `article` where  id = 0 AND is_on = 1 limit 0, 1
+
+2015/10/22 15:02:15----
+select `id` from `article` where  id = 14 AND is_on = 1 limit 0, 1
+
+2015/10/22 15:02:15----
+update `article` set `is_on`=? where  id = 14
+
+2015/10/22 15:05:27----
+select `id` from `article` where  id = 14 AND is_on = 1 limit 0, 1
+
+2015/10/22 15:05:47----
+select `id` from `article` where  id = 14 AND is_on = 1 limit 0, 1
+
+2015/10/22 15:06:03----
+select `id` from `article` where  id = 0 AND is_on = 1 limit 0, 1
+
+2015/10/22 15:06:20----
+select `id` from `article` where  id = 0 AND is_on = 1 limit 0, 1
+
+2015/10/22 15:06:21----
+select `id` from `article` where  id = 0 AND is_on = 1 limit 0, 1
+
+2015/10/22 15:06:22----
+select `id` from `article` where  id = 0 AND is_on = 1 limit 0, 1
+
+2015/10/22 15:06:40----
+select `id` from `article` where  id = 11 AND is_on = 1 limit 0, 1
+
+2015/10/22 15:06:40----
+delete from `article` where  id = 11
+

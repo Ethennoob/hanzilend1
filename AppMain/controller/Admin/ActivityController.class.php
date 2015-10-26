@@ -17,15 +17,17 @@ class ActivityController extends BaseClass {
         //-----------字段验证-----------
         //'cash'=>[null,null,null],第一个字段为类型，第二个为范围，第三个判断对否验证（默认true必须验证）
         $rule = [
+            //'id'            =>[],
             'sn'            =>[],
             'cash'          =>[],
             'limit_max_cash'=>[],
             'max_cash_count'=>[],
             'fine_rate'     =>[],
             'max_fine_rate' =>[],
-            'fine_days'     =>['egNum'],
+            'fine_days'     =>[],
             'start_time'    =>[],
             'end_time'      =>[],
+            'update_time'   =>[],
         ];
         $this->V($rule);
         //'object_name'=>[], 非空
@@ -38,12 +40,45 @@ class ActivityController extends BaseClass {
     
         foreach ($rule as $k=>$v){
             $data[$k] = $_POST[$k];
+            //var_dump($data[$k]);
         }
         $data['start_time']   = strtotime($data['start_time']);
         $data['end_time']     = strtotime($data['end_time']);
         $data['add_time']     = time();
     
         $activity = $this->table('activity_share_1')->save($data);
+        if(!$activity){
+            $this->R('',40001);
+        }
+    
+        $this->R();
+    }
+
+    public function userOneAdd(){
+        //-----------字段验证-----------
+        //'cash'=>[null,null,null],第一个字段为类型，第二个为范围，第三个判断对否验证（默认true必须验证）
+        $rule = [
+            'username'            =>[null,null,false],
+            'password'            =>[null,null,false],
+        ];
+        $this->V($rule);
+        //'object_name'=>[], 非空
+        //+
+        //'total_amount'=>['egNum',null,true], 类别（egNum大于0的整数，....）
+        //'initial_rate'=>['in',[0,1,2,3,4,5,6],true], 范围
+        //'email'=>['email'] 特殊字段
+        //参见 System/BaseClass.class.php和System/MyVerify.class.php
+        //-----------------------
+    
+        foreach ($rule as $k=>$v){
+            $data[$k] = $_POST[$k];
+            //var_dump($data[$k]);
+        }
+        /*$data['start_time']   = strtotime($data['start_time']);
+        $data['end_time']     = strtotime($data['end_time']);
+        $data['add_time']     = time();*/
+    
+        $activity = $this->table('user')->save($data);
         if(!$activity){
             $this->R('',40001);
         }
@@ -197,8 +232,8 @@ class ActivityController extends BaseClass {
      */
     public function activityOneDelete(){
     
-        $this->V(['activity_id'=>['egNum']]);
-        $activity_id = intval($_POST['activity_id']);
+        $this->V(['activity_id'=>['egNum',null,false]]);
+        $activity_id = intval($_GET['activity_id']);
          
         $activity = $this->table('activity_share_1')->where(['id'=>$activity_id,'is_on'=>1])->get(['id'],true);
     
@@ -210,7 +245,7 @@ class ActivityController extends BaseClass {
         if(!$activity){
             $this->R('',40001);
         }
-        $this->S()->delete('A1_'.$activity_id);
+        //$this->S()->delete('A1_'.$activity_id);
         $this->R();
     }
     
