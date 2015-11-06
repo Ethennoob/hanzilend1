@@ -37,25 +37,12 @@ class PaymentMethodController extends BaseClass {
             $data[$k] = $_POST[$k];
         }
 
-        $fileName = $_FILES['pay_icon']['name'];
-        $upload=new \System\lib\Upload\Upload();
-        $upload->exts      =     array('icon','ico');// 设置附件上传类型
-        $upload->rootPath = '../TempImg/';
-        $upload->savePath  = '/pay_icon/';   // 设置附件上传（子）目录
-        //$upload->saveName = explode('.', $saveName)[0];
-        
-        // 开启子目录保存 并以日期（格式为Ymd）为子目录
-        $upload->autoSub = false;
-        $upload->subName = array('date','Ymd');
-        
-        // 上传文件
-        $info=$upload->uploadOne($_FILES['pay_icon']);
-        if(!$info){
-            $errorMsg=$upload->getError();
-            $this->R(['errorMsg'=>$errorMsg],'40019');
-        }
+        //图片上传
+        $pictureName = $_FILES['pay_icon'];
+        $imgarray = $this->H('PictureUpload')->pictureUpload($pictureName,'paymentMethod',false);
 
-        $data['pay_icon']          = $info['savename'];
+
+        $data['pay_icon'] = $imgarray['a1'];
         $data['add_time']     = time();
     
         $payment_method = $this->table('payment_method')->save($data);
@@ -133,12 +120,46 @@ class PaymentMethodController extends BaseClass {
             $this->R('',70009);
         }
     
+       
+
         unset($rule['id']);
         foreach ($rule as $k=>$v){
             if(isset($_POST[$k])){
                 $data[$k] = $_POST[$k];
             }
         }
+        
+        /*---------------------------------------------*/
+        //验证上传文件是否是图片
+        
+        $fileName = $_FILES['pay_icon']['name'];
+        $upload=new \System\lib\Upload\Upload();
+        $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
+        $upload->rootPath = '../html/';
+        $upload->savePath  = '/images/payIcon/';   // 设置附件上传（子）目录
+        
+        // 开启子目录保存 并以日期（格式为Ymd）为子目录
+        $upload->autoSub = true;
+        $upload->subName = array('date','Ymd');
+        
+        // 上传文件
+        $info=$upload->uploadOne($_FILES['pay_icon']);
+        if(!$info){
+            $errorMsg=$upload->getError();
+            $this->R(['errorMsg'=>$errorMsg],'40019');
+        }
+
+         //删除图片文件
+        $pay_icon_url = $this->table('payment_method')->where(['id'=>$id,'is_on'=>1])->get(['pay_icon'],true);
+        foreach ($pay_icon_url as $key => $v) {
+             $delete = unlink("../html".$v);
+         }
+        if (!$delete) {
+            $this->R('',40020);
+        }
+        /*---------------------------------------------*/
+        $fileName = $info['savename'];
+        $data['pay_icon']          = $info['savepath'].$info['savename'];
         
         $data['update_time']  = time();
     
@@ -184,7 +205,14 @@ class PaymentMethodController extends BaseClass {
         if(!$payment_method){
             $this->R('',70009);
         }
-    
+        //删除图片文件
+        $pay_icon_url = $this->table('payment_method')->where(['id'=>$id,'is_on'=>1])->get(['pay_icon'],true);
+        foreach ($pay_icon_url as $key => $v) {
+             $delete = unlink("../html".$v);
+         }
+        if (!$delete) {
+            $this->R('',40020);
+        }
         $payment_method = $this->table('payment_method')->where(['id'=>$id])->delete();
         if(!$payment_method){
             $this->R('',40001);

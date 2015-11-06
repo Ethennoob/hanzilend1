@@ -1,0 +1,1443 @@
+2015/10/29 10:02:03----
+select count(*) from `user` where  is_on = 1
+
+2015/10/29 10:02:03----
+select `id`,`user_name`,`status`,`user_img`,`mobile_phone`,`add_time`,`mall_own_private` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/29 10:34:24----
+select A.id as id,A.user_name,A.user_img,A.status,A.mobile_phone,A.add_time,A.mall_own_private,B.mall_own_private as user_name,B.status from user as A  left join user as B on A.mall_own_private=B.id order by add_time desc
+
+2015/10/29 10:35:05----
+select A.id as id,A.user_name,A.user_img,A.status,A.mobile_phone,A.add_time,A.mall_own_private,B.mall_own_private as user_name,B.status from user as A  left join user as B on A.mall_own_private=B.id order by add_time desc
+
+2015/10/29 10:35:35----
+select A.id as id,A.user_name,A.user_img,A.status,A.mobile_phone,A.add_time,A.mall_own_private,B.mall_own_private as user_name,B.status from user as A  left join user as B on A.mall_own_private=B.id order by add_time asc
+
+2015/10/29 10:35:45----
+select A.id as id,A.user_name,A.user_img,A.status,A.mobile_phone,A.add_time,A.mall_own_private,B.mall_own_private as user_name,B.status from user as A  left join user as B on A.mall_own_private=B.id order by add_time desc
+
+2015/10/29 10:36:05----
+select A.id as id,A.user_name,A.user_img,A.status,A.mobile_phone,A.add_time,A.mall_own_private,B.mall_own_private as user_name,B.status from user as A  left join user as B on A.mall_own_private=B.id order by add_time desc
+
+2015/10/29 10:36:05----
+select count(1) from user as A  left join user as B on A.mall_own_private=B.id
+
+2015/10/29 10:36:05----
+select A.id as id,A.user_name,A.user_img,A.status,A.mobile_phone,A.add_time,A.mall_own_private,B.mall_own_private as user_name,B.status from user as A  left join user as B on A.mall_own_private=B.id order by add_time desc limit 0, 15
+
+2015/10/29 10:36:27----
+select A.id as id,A.user_name,A.user_img,A.status,A.mobile_phone,A.add_time,A.mall_own_private,B.mall_own_private as user_name,B.status from user as A  left join user as B on A.mall_own_private=B.id order by add_time desc
+
+2015/10/29 10:36:27----
+select count(1) from user as A  left join user as B on A.mall_own_private=B.id
+
+2015/10/29 10:36:27----
+select A.id as id,A.user_name,A.user_img,A.status,A.mobile_phone,A.add_time,A.mall_own_private,B.mall_own_private as user_name,B.status from user as A  left join user as B on A.mall_own_private=B.id order by add_time desc limit 0, 15
+
+2015/10/29 10:37:03----
+select A.id as id,A.user_name,A.user_img,A.status,A.mobile_phone,A.add_time,A.mall_own_private,B.mall_own_private as user_name,B.status from user as A  left join user as B on A.mall_own_private=B.id order by add_time desc
+
+2015/10/29 10:37:03----
+select count(1) from user as A  left join user as B on A.mall_own_private=B.id
+
+2015/10/29 10:37:03----
+select A.id as id,A.user_name,A.user_img,A.status,A.mobile_phone,A.add_time,A.mall_own_private,B.mall_own_private as user_name,B.status from user as A  left join user as B on A.mall_own_private=B.id order by add_time desc limit 0, 15
+
+2015/10/29 10:37:37----
+select A.id as id,A.user_name,A.user_img,A.status,A.mobile_phone,A.add_time,A.mall_own_private,B.mall_own_private as user_name,B.status from user as A  left join user as B on A.mall_own_private=B.id order by add_time desc
+
+2015/10/29 10:37:37----
+select count(1) from user as A  left join user as B on A.mall_own_private=B.id
+
+2015/10/29 10:37:37----
+select A.id as id,A.user_name,A.user_img,A.status,A.mobile_phone,A.add_time,A.mall_own_private,B.mall_own_private as user_name,B.status from user as A  left join user as B on A.mall_own_private=B.id order by add_time desc limit 0, 15
+
+2015/10/29 10:37:45----
+select A.id as id,A.user_name,A.user_img,A.status,A.mobile_phone,A.add_time,A.mall_own_private,B.mall_own_private as user_name,B.status from user as A  left join user as B on A.mall_own_private=B.id order by add_time desc
+
+2015/10/29 10:37:58----
+select A.id as id,A.user_name,A.user_img,A.status,A.mobile_phone,A.add_time,A.mall_own_private from user as A  order by add_time desc
+
+2015/10/29 10:38:16----
+select A.id as id,A.user_name,A.user_img,A.status,A.mobile_phone,A.add_time,A.mall_own_private,B.mall_own_private as user_name,B.status from user as A  left join user as B on A.mall_own_private=B.id order by add_time desc
+
+2015/10/29 10:39:28----
+select A.id as id,A.user_name,A.user_img,A.status,A.mobile_phone,A.add_time,A.mall_own_private,B.mall_own_private as user_name,B.status from user as A  left join user as B on A.mall_own_private=B.id order by add_time desc
+
+2015/10/29 10:46:49----
+select count(*) from `user` where  is_on = 1
+
+2015/10/29 10:47:03----
+select count(*) from `user` where  is_on = 1
+
+2015/10/29 10:48:18----
+select count(*) from `user` where  is_on = 1
+
+2015/10/29 10:48:18----
+select `id`,`user_name`,`status`,`user_img`,`mobile_phone`,`add_time`,`mall_own_private` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/29 10:48:32----
+select count(*) from `user` where  is_on = 1
+
+2015/10/29 10:48:32----
+select `id`,`user_name`,`status`,`user_img`,`mobile_phone`,`add_time`,`mall_own_private` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/29 10:52:37----
+select count(*) from `user` where  is_on = 1
+
+2015/10/29 10:52:37----
+select `id`,`user_name`,`status`,`user_img`,`mobile_phone`,`add_time`,`mall_own_private` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/29 10:52:37----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 10:52:37----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 10:52:37----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/10/29 10:53:05----
+select count(*) from `user` where  is_on = 1
+
+2015/10/29 10:53:05----
+select `id`,`user_name`,`status`,`user_img`,`mobile_phone`,`add_time`,`mall_own_private` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/29 10:53:05----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 10:53:05----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 10:53:05----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/10/29 10:55:24----
+select count(*) from `user` where  is_on = 1
+
+2015/10/29 10:55:24----
+select `id`,`user_name`,`status`,`user_img`,`mobile_phone`,`add_time`,`mall_own_private` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/29 10:55:24----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 10:55:24----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 10:55:24----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/10/29 10:57:12----
+select count(*) from `user` where  is_on = 1
+
+2015/10/29 10:57:12----
+select `id`,`user_name`,`status`,`user_img`,`mobile_phone`,`add_time`,`mall_own_private` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/29 10:57:12----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 10:57:12----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 10:57:12----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/10/29 10:59:19----
+select count(*) from `user` where  is_on = 1
+
+2015/10/29 10:59:19----
+select `id`,`user_name`,`status`,`user_img`,`mobile_phone`,`add_time`,`mall_own_private` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/29 10:59:19----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 10:59:31----
+select count(*) from `user` where  is_on = 1
+
+2015/10/29 10:59:31----
+select `id`,`user_name`,`status`,`user_img`,`mobile_phone`,`add_time`,`mall_own_private` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/29 10:59:31----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 10:59:31----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/10/29 10:59:41----
+select count(*) from `user` where  is_on = 1
+
+2015/10/29 10:59:41----
+select `id`,`user_name`,`status`,`user_img`,`mobile_phone`,`add_time`,`mall_own_private` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/29 10:59:41----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 10:59:41----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 10:59:41----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/10/29 11:00:02----
+select count(*) from `user` where  is_on = 1
+
+2015/10/29 11:00:02----
+select `id`,`user_name`,`status`,`user_img`,`mobile_phone`,`add_time`,`mall_own_private` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/29 11:00:02----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 11:00:02----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 11:00:02----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/10/29 11:00:15----
+select count(*) from `user` where  is_on = 1
+
+2015/10/29 11:00:15----
+select `id`,`user_name`,`status`,`user_img`,`mobile_phone`,`add_time`,`mall_own_private` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/29 11:00:15----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 11:00:15----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 11:00:37----
+select count(*) from `user` where  is_on = 1
+
+2015/10/29 11:00:37----
+select `id`,`user_name`,`status`,`user_img`,`mobile_phone`,`add_time`,`mall_own_private` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/29 11:00:37----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 11:00:37----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/10/29 12:46:21----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.order_money,A.mall_own_private,B.id as province,B.city,B.area,B.street,C.id as withdrawals_name from user as A  left join user_address as B on A.id=B.user_id,A.id=C.user_id  withdrawals_apply as C  
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.user_id  withdrawals_apply as C' at line 1
+2015/10/29 12:47:52----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.order_money,A.mall_own_private,B.id as province,B.city,B.area,B.street,C.id as withdrawals_name from user as A  left join user_address as B on A.id=B.user_id  withdrawals_apply as C on A.id=C.user_id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'withdrawals_apply as C on A.id=C.user_id' at line 1
+2015/10/29 12:48:17----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.order_money,A.mall_own_private,B.id as province,B.city,B.area,B.street,C.id as withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 12:48:53----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.order_money,A.mall_own_private,B.id as province,B.city,B.area,B.street,C.id as withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 12:50:06----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.order_money,A.mall_own_private,B.id as province,B.city,B.area,B.street,C.id as withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 12:51:22----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.order_money,A.mall_own_private,B.id as province,B.city,B.area,B.street,C.id as withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 12:52:02----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.order_money,A.mall_own_private,B.id as province,B.city,B.area,B.street,C.id as withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 12:52:52----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.order_money,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 13:42:39----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.order_money,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 13:43:41----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.order_money,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 13:43:47----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.order_money,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 13:43:48----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.order_money,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 13:43:50----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.order_money,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 13:43:52----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.order_money,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 13:45:29----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.order_money,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 13:46:31----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.order_money,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where Array
+Unknown column 'Array' in 'where clause'
+2015/10/29 13:46:36----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.order_money,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where Array
+Unknown column 'Array' in 'where clause'
+2015/10/29 14:10:39----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.order_money,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where Array
+Unknown column 'Array' in 'where clause'
+2015/10/29 14:11:13----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.order_money,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 14:18:28----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.order_money,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 14:18:30----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.order_money,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 14:18:31----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.order_money,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 14:18:33----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.order_money,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 14:19:55----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 14:27:37----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 14:35:25----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 14:35:44----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 14:35:46----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 14:35:56----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 14:35:59----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 14:36:00----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 14:36:00----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 14:36:00----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 14:36:03----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+
+2015/10/29 14:39:03----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where 1
+
+2015/10/29 14:41:47----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where 2
+
+2015/10/29 14:42:43----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=2
+
+2015/10/29 14:42:45----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=1
+
+2015/10/29 14:43:37----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=1
+
+2015/10/29 14:43:51----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=1
+
+2015/10/29 14:44:45----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=1
+
+2015/10/29 14:55:47----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=1
+
+2015/10/29 14:55:47----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=1
+
+2015/10/29 14:56:47----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=0
+
+2015/10/29 14:57:04----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=1
+
+2015/10/29 14:57:15----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=1
+
+2015/10/29 14:57:44----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=1
+
+2015/10/29 14:57:56----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=2
+
+2015/10/29 15:00:12----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=2
+
+2015/10/29 15:00:12----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/10/29 15:01:11----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=2
+
+2015/10/29 15:01:16----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=1
+
+2015/10/29 15:01:19----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=2
+
+2015/10/29 15:02:00----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=2
+
+2015/10/29 15:02:02----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=1
+
+2015/10/29 15:02:09----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=2
+
+2015/10/29 15:06:06----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=2
+
+2015/10/29 15:06:18----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=2
+
+2015/10/29 15:06:19----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=2
+
+2015/10/29 15:06:34----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=2
+
+2015/10/29 15:06:34----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/10/29 15:06:40----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=1
+
+2015/10/29 15:06:40----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/10/29 15:07:55----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=1
+
+2015/10/29 15:07:55----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/10/29 15:10:31----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=2
+
+2015/10/29 15:10:31----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/10/29 15:12:28----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=2
+
+2015/10/29 15:12:28----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/10/29 15:12:40----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=2
+
+2015/10/29 15:12:40----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/10/29 15:12:51----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=2
+
+2015/10/29 15:12:52----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/10/29 15:13:54----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=2
+
+2015/10/29 15:13:54----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 15:14:07----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=2
+
+2015/10/29 15:14:07----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 15:14:11----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=3
+
+2015/10/29 15:14:11----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 15:14:14----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=1
+
+2015/10/29 15:14:14----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/10/29 15:24:40----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=1
+
+2015/10/29 15:24:40----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/10/29 15:25:27----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=1
+
+2015/10/29 15:25:27----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/10/29 16:01:48----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=2
+
+2015/10/29 16:01:48----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 16:02:01----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=3
+
+2015/10/29 16:02:01----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 16:04:19----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=3
+
+2015/10/29 16:04:19----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 16:04:21----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=3
+
+2015/10/29 16:04:21----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 16:04:21----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id where A.id=3
+
+2015/10/29 16:04:21----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 16:05:32----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  is_on = 1 AND id = 3 limit 0, 1
+
+2015/10/29 16:05:33----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  is_on = 1 AND id = 3 limit 0, 1
+
+2015/10/29 16:05:33----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  is_on = 1 AND id = 3 limit 0, 1
+
+2015/10/29 16:05:34----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  is_on = 1 AND id = 3 limit 0, 1
+
+2015/10/29 16:05:44----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  is_on = 1 AND id = 4 limit 0, 1
+
+2015/10/29 17:17:17----
+select `id` from `user` where  id = 3 AND is_on = 1 limit 0, 1
+
+2015/10/29 17:17:17----
+update `user` set `is_froze`=? where  id = 3
+
+2015/10/29 17:17:26----
+select `id` from `user` where  id = 2 AND is_on = 1 limit 0, 1
+
+2015/10/29 17:17:26----
+update `user` set `is_froze`=? where  id = 2
+
+2015/10/29 19:15:39----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.mobile_phone as shop_name,B.type from user as A  left join distributor_apply as B on A.mobile_phone=B.phone order by add_time desc
+Unknown column 'B.mobile_phone' in 'field list'
+2015/10/29 19:16:31----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.mobile_phone as shop_name,B.type from user as A  left join distributor_apply as B on A.mobile_phone=B.phone order by add_time desc
+Unknown column 'B.mobile_phone' in 'field list'
+2015/10/29 19:22:41----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.shop_name,B.type from user as A  left join distributor_apply as B on A.mobile_phone=B.phone order by add_time desc
+
+2015/10/29 19:23:15----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.shop_name,B.type from user as A  left join distributor_apply as B on A.mobile_phone=B.phone order by add_time desc
+
+2015/10/29 19:24:51----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.shop_name,B.type from user as A  left join distributor_apply as B on A.mobile_phone=B.phone where A.is_on=1 order by add_time desc
+
+2015/10/29 19:26:42----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.shop_name,B.type from user as A  left join distributor_apply as B on A.mobile_phone=B.phone order by add_time desc
+
+2015/10/29 19:26:42----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.shop_name,B.type from user as A  left join distributor_apply as B on A.mobile_phone=B.phone order by add_time desc
+
+2015/10/29 19:26:43----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.shop_name,B.type from user as A  left join distributor_apply as B on A.mobile_phone=B.phone order by add_time desc
+
+2015/10/29 19:27:26----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.shop_name,B.type from user as A  left join distributor_apply as B on A.mobile_phone=B.phone order by add_time desc
+
+2015/10/29 19:27:31----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.shop_name,B.type from user as A  left join distributor_apply as B on A.mobile_phone=B.phone order by add_time desc
+
+2015/10/29 19:28:01----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.shop_name,B.type from user as A  left join distributor_apply as B on A.mobile_phone=B.phone order by add_time desc
+
+2015/10/29 19:29:08----
+select count(1) from user as A  left join distributor_apply as B on A.mobile_phone=B.phone
+
+2015/10/29 19:30:35----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.shop_name,B.type from user as A  left join distributor_apply as B on A.mobile_phone=B.phone order by add_time desc
+
+2015/10/29 19:33:16----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.shop_name,B.type from user as A  left join distributor_apply as B on A.mobile_phone=B.phone order by add_time desc
+
+2015/10/29 19:42:31----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.shop_name,B.type from user as A  left join distributor_apply as B on A.mobile_phone=B.phone order by add_time desc
+
+2015/10/29 19:42:31----
+select count(1) from user as A  left join distributor_apply as B on A.mobile_phone=B.phone
+
+2015/10/29 19:42:49----
+select count(1) from user as A  left join distributor_apply as B on A.mobile_phone=B.phone
+
+2015/10/29 19:44:36----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.shop_name,B.type from user as A  left join distributor_apply as B on A.mobile_phone=B.phone order by add_time desc
+
+2015/10/29 19:44:36----
+select count(1) from user as A  left join distributor_apply as B on A.mobile_phone=B.phone
+
+2015/10/29 19:47:26----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.shop_name,B.type from user as A  left join distributor_apply as B on A.mobile_phone=B.phone order by add_time desc
+
+2015/10/29 19:47:26----
+select count(1) from user as A  left join distributor_apply as B on A.mobile_phone=B.phone
+
+2015/10/29 19:52:52----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 19:52:52----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 19:55:43----
+select A.id as id shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.id=B.user_id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.ad' at line 1
+2015/10/29 19:55:43----
+select count(1) from distributor_apply as A   left join user as B  on A.id=B.user_id
+Unknown column 'B.user_id' in 'on clause'
+2015/10/29 19:56:11----
+select A.id as id shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.ad' at line 1
+2015/10/29 19:56:11----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.ad' at line 1
+2015/10/29 19:56:33----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:33----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:34----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:34----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:35----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:36----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:36----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:36----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:36----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:36----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:36----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:36----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:36----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:36----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:36----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:36----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:36----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:36----
+select A.id as id user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:36----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commi' at line 1
+2015/10/29 19:56:48----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:48----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:49----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:49----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:49----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:49----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:49----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:49----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:49----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:49----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:49----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:49----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:49----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:49----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:49----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:49----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:49----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:49----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:49----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:49----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:49----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:49----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:50----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:50----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:50----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:50----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:50----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:50----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:51----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select A.id as id ，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:56:52----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.co' at line 1
+2015/10/29 19:58:27----
+select A.id as id,A.user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+
+2015/10/29 19:58:27----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+
+2015/10/29 19:58:28----
+select A.id as id,A.user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+
+2015/10/29 19:58:28----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+
+2015/10/29 19:58:28----
+select A.id as id,A.user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+
+2015/10/29 19:58:28----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+
+2015/10/29 19:58:28----
+select A.id as id,A.user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+
+2015/10/29 19:58:28----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+
+2015/10/29 19:58:29----
+select A.id as id,A.user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+
+2015/10/29 19:58:29----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+
+2015/10/29 19:58:46----
+select A.id as id,A.user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+
+2015/10/29 19:58:46----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+
+2015/10/29 19:59:16----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id order by add_time desc
+Column 'add_time' in order clause is ambiguous
+2015/10/29 19:59:16----
+select count(1) from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+Column 'add_time' in order clause is ambiguous
+2015/10/29 19:59:17----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id order by add_time desc
+Column 'add_time' in order clause is ambiguous
+2015/10/29 19:59:17----
+select count(1) from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+Column 'add_time' in order clause is ambiguous
+2015/10/29 19:59:17----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id order by add_time desc
+Column 'add_time' in order clause is ambiguous
+2015/10/29 19:59:17----
+select count(1) from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+Column 'add_time' in order clause is ambiguous
+2015/10/29 19:59:18----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id order by add_time desc
+Column 'add_time' in order clause is ambiguous
+2015/10/29 19:59:18----
+select count(1) from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+Column 'add_time' in order clause is ambiguous
+2015/10/29 19:59:18----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id order by add_time desc
+Column 'add_time' in order clause is ambiguous
+2015/10/29 19:59:18----
+select count(1) from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+Column 'add_time' in order clause is ambiguous
+2015/10/29 19:59:18----
+select A.id as id,A.user_img,A.city,A.mobile_phone,A.user_money,A.pay_points,A.mall_own_private,B.id as user_id,B.province,B.city,B.area,B.street,C.id as user_id,C.withdrawals_name from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id order by add_time desc
+Column 'add_time' in order clause is ambiguous
+2015/10/29 19:59:18----
+select count(1) from user as A  left join user_address as B on A.id=B.user_id left join withdrawals_apply as C on A.id=C.user_id
+Column 'add_time' in order clause is ambiguous
+2015/10/29 20:00:55----
+select A.id as id,A.user_id,A.shop_name,A.type,B.user_name,B.mobile_phone,B.mall_own_private,B.commission,B.add_time from distributor_apply as A   left join user as B  on A.user_id=B.id order by add_time desc
+
+2015/10/29 20:00:55----
+select count(1) from distributor_apply as A   left join user as B  on A.user_id=B.id
+
+2015/10/29 20:03:08----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:08----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:08----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:08----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:08----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:08----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:08----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:08----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:09----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:09----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:09----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:09----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:09----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:09----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:09----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:09----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:09----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:09----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:09----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:09----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:10----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:10----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:10----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:10----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:10----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:10----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:10----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:10----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:24----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.user_id as user_id shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:24----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:03:59----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.user_id as user_id shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:04:25----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.user_id as user_id,B.shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+
+2015/10/29 20:04:44----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.user_id as shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+
+2015/10/29 20:05:22----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.user_id as shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+
+2015/10/29 20:05:22----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+
+2015/10/29 20:07:16----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.user_id as shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+
+2015/10/29 20:10:52----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.user_id as shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+
+2015/10/29 20:11:54----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.user_id as shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+
+2015/10/29 20:12:09----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.user_id as shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+
+2015/10/29 20:15:11----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.user_id as shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+
+2015/10/29 20:17:02----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.user_id as shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+
+2015/10/29 20:17:07----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.user_id as shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+
+2015/10/29 20:17:07----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+
+2015/10/29 20:18:43----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.user_id as shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+
+2015/10/29 20:18:43----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+
+2015/10/29 20:18:43----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.user_id as shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc limit 0, 15
+
+2015/10/29 20:21:46----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.user_id as shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+
+2015/10/29 20:21:46----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+
+2015/10/29 20:21:46----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.user_id as shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc limit 0, 15
+
+2015/10/29 20:22:05----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.user_id as shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+
+2015/10/29 20:22:05----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+
+2015/10/29 20:22:05----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.user_id as shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc limit 0, 15
+
+2015/10/29 20:22:11----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.user_id as shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+
+2015/10/29 20:22:11----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+
+2015/10/29 20:22:11----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.user_id as shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc limit 0, 15
+
+2015/10/29 20:22:33----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.user_id as shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+
+2015/10/29 20:22:33----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+
+2015/10/29 20:22:33----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.user_id as shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc limit 0, 15
+
+2015/10/29 20:22:52----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.user_id as user_id shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:22:52----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:22:52----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.user_id as user_id shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc limit 0, 15
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:22:58----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:22:58----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:22:58----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc limit 0, 15
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user' at line 1
+2015/10/29 20:23:07----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id,B.shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+
+2015/10/29 20:23:07----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+
+2015/10/29 20:23:07----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id,B.shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc limit 0, 15
+
+2015/10/29 20:24:12----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id,B.shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+
+2015/10/29 20:24:12----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+
+2015/10/29 20:24:12----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id,B.shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc limit 0, 15
+
+2015/10/29 20:24:12----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 20:24:12----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 20:24:12----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/10/29 20:24:28----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id,B.shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+
+2015/10/29 20:24:28----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+
+2015/10/29 20:24:28----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id,B.shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc limit 0, 15
+
+2015/10/29 20:24:28----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 20:24:28----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 20:24:28----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/10/29 20:25:09----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id,B.shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+
+2015/10/29 20:25:09----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+
+2015/10/29 20:25:09----
+select A.id as id,A.user_name,A.mobile_phone,A.mall_own_private,A.commission,A.add_time,B.id as user_id,B.shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc limit 0, 15
+
+2015/10/29 20:25:09----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 20:25:09----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/29 20:25:09----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+

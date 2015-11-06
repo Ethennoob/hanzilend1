@@ -1,0 +1,387 @@
+2015/10/28 11:47:52----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`updat_time`,`is_on` from `user` where  mobile_phone = '2147483647' AND password = 'e10adc3949ba59abbe56e057f20f883e' limit 0, 1
+
+2015/10/28 11:47:52----
+update `user` set `last_login`=?,`last_ip`=? where  id = 1
+
+2015/10/28 11:47:52----
+select `mall_own_private` from `user` where  id = 1 limit 0, 1
+
+2015/10/28 11:48:00----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`updat_time`,`is_on` from `user` where  mobile_phone = '2147483647' AND password = 'e10adc3949ba59abbe56e057f20f883e' limit 0, 1
+
+2015/10/28 11:48:00----
+update `user` set `last_login`=?,`last_ip`=? where  id = 1
+
+2015/10/28 11:48:00----
+select `mall_own_private` from `user` where  id = 1 limit 0, 1
+
+2015/10/28 11:48:22----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`updat_time`,`is_on` from `user` where  mobile_phone = '2147483647' AND password = 'e10adc3949ba59abbe56e057f20f883e' limit 0, 1
+
+2015/10/28 11:48:22----
+update `user` set `last_login`=?,`last_ip`=? where  id = 1
+
+2015/10/28 11:48:22----
+select `mall_own_private` from `user` where  id = 1 limit 0, 1
+
+2015/10/28 11:48:23----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`updat_time`,`is_on` from `user` where  mobile_phone = '2147483647' AND password = 'e10adc3949ba59abbe56e057f20f883e' limit 0, 1
+
+2015/10/28 11:48:23----
+update `user` set `last_login`=?,`last_ip`=? where  id = 1
+
+2015/10/28 11:48:23----
+select `mall_own_private` from `user` where  id = 1 limit 0, 1
+
+2015/10/28 11:49:51----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`updat_time`,`is_on` from `user` where  mobile_phone = '2147483647' AND password = 'e10adc3949ba59abbe56e057f20f883e' limit 0, 1
+
+2015/10/28 11:49:51----
+update `user` set `last_login`=?,`last_ip`=? where  id = 1
+
+2015/10/28 11:49:51----
+select `mall_own_private` from `user` where  id = 1 limit 0, 1
+
+2015/10/28 13:32:24----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`updat_time`,`is_on` from `user` where  mobile_phone = '2147483647' AND password = 'e10adc3949ba59abbe56e057f20f883e' limit 0, 1
+
+2015/10/28 13:32:24----
+update `user` set `last_login`=?,`last_ip`=? where  id = 1
+
+2015/10/28 13:32:24----
+select `mall_own_private` from `user` where  id = 1 limit 0, 1
+
+2015/10/28 13:32:33----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`updat_time`,`is_on` from `user` where  mobile_phone = '2147483647' AND password = 'e10adc3949ba59abbe56e057f20f883e' limit 0, 1
+
+2015/10/28 13:32:33----
+update `user` set `last_login`=?,`last_ip`=? where  id = 1
+
+2015/10/28 13:32:33----
+select `mall_own_private` from `user` where  id = 1 limit 0, 1
+
+2015/10/28 13:32:55----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`updat_time`,`is_on` from `user` where  mobile_phone = '2147483647' AND password = 'e10adc3949ba59abbe56e057f20f883e' limit 0, 1
+
+2015/10/28 13:32:55----
+update `user` set `last_login`=?,`last_ip`=? where  id = 1
+
+2015/10/28 13:32:55----
+select `mall_own_private` from `user` where  id = 1 limit 0, 1
+
+2015/10/28 13:42:57----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`updat_time`,`is_on` from `user` where  mobile_phone = '2147483647' limit 0, 1
+
+2015/10/28 13:42:57----
+update `user` set `last_login`=?,`last_ip`=? where  id = 1
+
+2015/10/28 13:42:57----
+select `mall_own_private` from `user` where  id = 1 limit 0, 1
+
+2015/10/28 14:41:41----
+select count(*) from `user` where  is_on = 1
+
+2015/10/28 14:41:41----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`updat_time`,`is_on` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/28 14:42:05----
+select count(*) from `user` where  is_on = 1
+
+2015/10/28 14:42:05----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`updat_time`,`is_on` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/28 14:44:11----
+select count(*) from `user` where  is_on = 1
+
+2015/10/28 14:44:11----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`updat_time`,`is_on` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/28 14:44:25----
+select count(*) from `user` where  is_on = 1
+
+2015/10/28 14:44:25----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`updat_time`,`is_on` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/28 14:49:34----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`updat_time`,`is_on` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/28 14:51:44----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  is_on = 1 AND id = 2 limit 0, 1
+
+2015/10/28 15:13:23----
+insert into `user` (`user_name`,`email`,`sex`,`birthday`,`nickname`,`qq`,`office_phone`,`user_img`,`add_time`) values (?,?,?,?,?,?,?,?,?)
+
+2015/10/28 15:13:50----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  is_on = 1 AND id = 3 limit 0, 1
+
+2015/10/28 15:13:51----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  is_on = 1 AND id = 3 limit 0, 1
+
+2015/10/28 15:13:52----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  is_on = 1 AND id = 3 limit 0, 1
+
+2015/10/28 15:13:52----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  is_on = 1 AND id = 3 limit 0, 1
+
+2015/10/28 15:13:53----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  is_on = 1 AND id = 3 limit 0, 1
+
+2015/10/28 15:13:53----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  is_on = 1 AND id = 3 limit 0, 1
+
+2015/10/28 15:13:54----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  is_on = 1 AND id = 3 limit 0, 1
+
+2015/10/28 15:14:22----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  is_on = 1 AND id = 3 limit 0, 1
+
+2015/10/28 16:04:09----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  mobile_phone = '123456789' AND password = 'e10adc3949ba59abbe56e057f20f883e' AND is_froze = 0 limit 0, 1
+
+2015/10/28 16:04:40----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  mobile_phone = '123456789' AND password = 'e10adc3949ba59abbe56e057f20f883e' AND is_froze = 0 limit 0, 1
+
+2015/10/28 16:09:05----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  is_froze = 0 limit 0, 1
+
+2015/10/28 16:09:05----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  password = '92251e8665e19be62c86ff039528e16e' limit 0, 1
+
+2015/10/28 16:09:37----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  is_froze = 0 limit 0, 1
+
+2015/10/28 16:09:37----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  password = '92251e8665e19be62c86ff039528e16e' limit 0, 1
+
+2015/10/28 16:09:40----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  is_froze = 0 limit 0, 1
+
+2015/10/28 16:09:40----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  password = 'e10adc3949ba59abbe56e057f20f883e' limit 0, 1
+
+2015/10/28 16:09:40----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  mobile_phone = '123456789' limit 0, 1
+
+2015/10/28 16:09:40----
+update `user` set `last_login`=?,`last_ip`=? where  id = 3
+
+2015/10/28 16:09:40----
+select `mall_own_private` from `user` where  id = 3 limit 0, 1
+
+2015/10/28 16:10:12----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  is_froze = 0 limit 0, 1
+
+2015/10/28 16:10:12----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  password = 'e10adc3949ba59abbe56e057f20f883e' limit 0, 1
+
+2015/10/28 16:10:12----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  mobile_phone = '1234789' limit 0, 1
+
+2015/10/28 16:29:36----
+select count(*) from `user` where  is_on = 1
+
+2015/10/28 16:29:36----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/28 16:31:25----
+select count(*) from `user` where  is_on = 1
+
+2015/10/28 16:31:25----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/28 16:31:39----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  is_on = 1 AND id = 3 limit 0, 1
+
+2015/10/28 18:00:27----
+select count(*) from `user` where  is_on = 1
+
+2015/10/28 18:00:27----
+select  from `user` where  is_on = 1 order by add_time desc limit 0, 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` where  is_on = 1 order by add_time desc limit 0, 1' at line 1
+2015/10/28 18:00:27----
+select  from `user` where  is_on = 1 order by add_time desc limit 0, 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` where  is_on = 1 order by add_time desc limit 0, 1' at line 1
+2015/10/28 18:01:11----
+select count(*) from `user` where  is_on = 1
+
+2015/10/28 18:01:11----
+select  from `user` where  is_on = 1 order by add_time desc limit 0, 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` where  is_on = 1 order by add_time desc limit 0, 1' at line 1
+2015/10/28 18:01:11----
+select  from `user` where  is_on = 1 order by add_time desc limit 0, 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` where  is_on = 1 order by add_time desc limit 0, 1' at line 1
+2015/10/28 18:01:13----
+select count(*) from `user` where  is_on = 1
+
+2015/10/28 18:01:13----
+select  from `user` where  is_on = 1 order by add_time desc limit 0, 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` where  is_on = 1 order by add_time desc limit 0, 1' at line 1
+2015/10/28 18:01:13----
+select  from `user` where  is_on = 1 order by add_time desc limit 0, 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` where  is_on = 1 order by add_time desc limit 0, 1' at line 1
+2015/10/28 19:07:11----
+select count(*) from `user` where  is_on = 1
+
+2015/10/28 19:07:11----
+select  from `user` where  is_on = 1 order by add_time desc limit 0, 15
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` where  is_on = 1 order by add_time desc limit 0, 15' at line 1
+2015/10/28 19:07:11----
+select  from `user` where  is_on = 1 order by add_time desc limit 0, 15
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` where  is_on = 1 order by add_time desc limit 0, 15' at line 1
+2015/10/28 19:20:41----
+select count(*) from `user` where  is_on = 1
+
+2015/10/28 19:20:41----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/28 19:24:33----
+select `id`,`user_name`,`status`,`user_img`,`mobile_phone`,`add_time`,`mall_own_private` from `user` where  is_on = 1 limit 0, 1
+
+2015/10/28 19:24:57----
+select `id`,`user_name`,`status`,`user_img`,`mobile_phone`,`add_time`,`mall_own_private` from `user` where  is_on = 1 order by add_time desc limit 0, 1
+
+2015/10/28 19:27:26----
+select `id`,`user_name`,`status`,`user_img`,`mobile_phone`,`add_time`,`mall_own_private` from `user` where  is_on = 1 limit 0, 1
+
+2015/10/28 19:32:42----
+select count(*) from `user` where  is_on = 1
+
+2015/10/28 19:32:42----
+select  from `user` where  is_on = 1 order by add_time desc limit 0, 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` where  is_on = 1 order by add_time desc limit 0, 1' at line 1
+2015/10/28 19:32:42----
+select  from `user` where  is_on = 1 order by add_time desc limit 0, 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` where  is_on = 1 order by add_time desc limit 0, 1' at line 1
+2015/10/28 19:34:34----
+select count(*) from `user` where  is_on = 1
+
+2015/10/28 19:34:34----
+select  from `user` where  is_on = 1 order by add_time desc limit 0, 15
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` where  is_on = 1 order by add_time desc limit 0, 15' at line 1
+2015/10/28 19:34:34----
+select  from `user` where  is_on = 1 order by add_time desc limit 0, 15
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` where  is_on = 1 order by add_time desc limit 0, 15' at line 1
+2015/10/28 19:35:21----
+select count(*) from `user` where  is_on = 1
+
+2015/10/28 19:35:21----
+select  from `user` where  is_on = 1 order by add_time desc limit 0, 15
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` where  is_on = 1 order by add_time desc limit 0, 15' at line 1
+2015/10/28 19:35:21----
+select  from `user` where  is_on = 1 order by add_time desc limit 0, 15
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` where  is_on = 1 order by add_time desc limit 0, 15' at line 1
+2015/10/28 19:36:19----
+select count(*) from `user` where  is_on = 1
+
+2015/10/28 19:36:19----
+select  from `user` where  is_on = 1 order by add_time desc limit 0, 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` where  is_on = 1 order by add_time desc limit 0, 1' at line 1
+2015/10/28 19:36:19----
+select  from `user` where  is_on = 1 order by add_time desc limit 0, 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` where  is_on = 1 order by add_time desc limit 0, 1' at line 1
+2015/10/28 19:36:38----
+select count(*) from `user`
+
+2015/10/28 19:36:38----
+select  from `user` order by add_time desc limit 0, 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` order by add_time desc limit 0, 1' at line 1
+2015/10/28 19:36:38----
+select  from `user` order by add_time desc limit 0, 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` order by add_time desc limit 0, 1' at line 1
+2015/10/28 19:36:57----
+select count(*) from `user`
+
+2015/10/28 19:36:57----
+select  from `user` order by add_time desc limit 0, 15
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` order by add_time desc limit 0, 15' at line 1
+2015/10/28 19:36:57----
+select  from `user` order by add_time desc limit 0, 15
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` order by add_time desc limit 0, 15' at line 1
+2015/10/28 19:36:59----
+select count(*) from `user`
+
+2015/10/28 19:36:59----
+select  from `user` order by add_time desc limit 0, 15
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` order by add_time desc limit 0, 15' at line 1
+2015/10/28 19:36:59----
+select  from `user` order by add_time desc limit 0, 15
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` order by add_time desc limit 0, 15' at line 1
+2015/10/28 19:37:30----
+select count(*) from `user` where  is_on = 1
+
+2015/10/28 19:37:30----
+select  from `user` where  is_on = 1 order by add_time desc limit 0, 15
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` where  is_on = 1 order by add_time desc limit 0, 15' at line 1
+2015/10/28 19:37:30----
+select  from `user` where  is_on = 1 order by add_time desc limit 0, 15
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` where  is_on = 1 order by add_time desc limit 0, 15' at line 1
+2015/10/28 19:37:37----
+select count(*) from `user` where  is_on = 1
+
+2015/10/28 19:37:37----
+select  from `user` where  is_on = 1 order by add_time desc limit 0, 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` where  is_on = 1 order by add_time desc limit 0, 1' at line 1
+2015/10/28 19:37:37----
+select  from `user` where  is_on = 1 order by add_time desc limit 0, 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` where  is_on = 1 order by add_time desc limit 0, 1' at line 1
+2015/10/28 19:37:48----
+select count(*) from `user` where  is_on = 1
+
+2015/10/28 19:37:48----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/28 19:38:05----
+select count(*) from `user` where  is_on = 1
+
+2015/10/28 19:38:05----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`update_time`,`is_on` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/28 19:38:20----
+select count(*) from `user` where  is_on = 1
+
+2015/10/28 19:38:20----
+select  from `user` where  is_on = 1 order by add_time desc limit 0, 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` where  is_on = 1 order by add_time desc limit 0, 1' at line 1
+2015/10/28 19:38:20----
+select  from `user` where  is_on = 1 order by add_time desc limit 0, 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` where  is_on = 1 order by add_time desc limit 0, 1' at line 1
+2015/10/28 19:48:17----
+select count(*) from `user`
+
+2015/10/28 19:48:17----
+select  from `user` order by add_time desc limit 0, 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` order by add_time desc limit 0, 1' at line 1
+2015/10/28 19:48:17----
+select  from `user` order by add_time desc limit 0, 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from `user` order by add_time desc limit 0, 1' at line 1
+2015/10/28 19:49:06----
+select count(*) from `user`
+
+2015/10/28 19:49:06----
+select `id`,`user_name`,`status`,`user_img`,`mobile_phone`,`add_time`,`mall_own_private` from `user` order by add_time desc limit 0, 15
+
+2015/10/28 19:50:42----
+select count(*) from `user`
+
+2015/10/28 19:50:42----
+select `id`,`user_name`,`status`,`user_img`,`mobile_phone`,`add_time`,`mall_own_private` from `user` order by add_time desc limit 0, 15
+
+2015/10/28 19:50:45----
+select count(*) from `user`
+
+2015/10/28 19:50:45----
+select `id`,`user_name`,`status`,`user_img`,`mobile_phone`,`add_time`,`mall_own_private` from `user` order by add_time desc limit 0, 15
+
+2015/10/28 19:50:46----
+select count(*) from `user`
+
+2015/10/28 19:50:46----
+select `id`,`user_name`,`status`,`user_img`,`mobile_phone`,`add_time`,`mall_own_private` from `user` order by add_time desc limit 0, 15
+
+2015/10/28 19:50:46----
+select count(*) from `user`
+
+2015/10/28 19:50:46----
+select `id`,`user_name`,`status`,`user_img`,`mobile_phone`,`add_time`,`mall_own_private` from `user` order by add_time desc limit 0, 15
+

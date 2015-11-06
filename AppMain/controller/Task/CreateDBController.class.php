@@ -38,11 +38,12 @@ class CreateDBController extends BaseClass {
 		
 		    if ($result) {
 		        while ($row = $result->fetch_row()) {
+		        	$type='i';  //默认为字符串
 		            if (strpos($row[5], "auto_increment") !== false)
 		                $ai = $row[0];
 		            if (strpos($row[1], "int") !== false)
 		                $type = "i";
-		            else if (strpos($row[1], "char") !== false || strpos($row[1], "text") !== false)
+		            else if (strpos($row[1], "char") !== false || strpos($row[1], "date") !== false ||strpos($row[1], "text") !== false)
 		                $type = "s";
 		            else if (strpos($row[1], "decimal") !== false || strpos($row[1], "float") !== false || strpos($row[1], "double") !== false)
 		                $type = "d";

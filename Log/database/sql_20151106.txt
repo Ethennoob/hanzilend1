@@ -1,0 +1,222 @@
+2015/11/06 10:41:38----
+select `id` from `distributor_apply` where  phone = '18819489668' limit 0, 1
+
+2015/11/06 10:41:38----
+select `id` from `user` where  mobile_phone = '18819489668' limit 0, 1
+
+2015/11/06 10:41:38----
+insert into `user` (`mobile_phone`,`password`,`status`,`add_time`) values (?,?,?,?)
+
+2015/11/06 10:41:38----
+select `id` from `user` where  mobile_phone = '18819489668' limit 0, 1
+
+2015/11/06 10:41:55----
+select `id` from `distributor_apply` where  phone = '18819489668' limit 0, 1
+
+2015/11/06 10:41:55----
+select `id` from `user` where  mobile_phone = '18819489668' limit 0, 1
+
+2015/11/06 10:42:06----
+select `id` from `distributor_apply` where  phone = '18819489668' limit 0, 1
+
+2015/11/06 10:42:06----
+select `id` from `user` where  mobile_phone = '18819489668' limit 0, 1
+
+2015/11/06 10:42:06----
+insert into `user` (`mobile_phone`,`password`,`status`,`add_time`) values (?,?,?,?)
+
+2015/11/06 10:42:06----
+select `id` from `user` where  mobile_phone = '18819489668' limit 0, 1
+
+2015/11/06 10:42:06----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`is_pass`,`user_id`,`add_time`) values (?,?,?,?,?,?)
+
+2015/11/06 10:42:40----
+select `id` from `distributor_apply` where  phone = '18819489668' limit 0, 1
+
+2015/11/06 10:42:40----
+select `id` from `user` where  mobile_phone = '18819489668' limit 0, 1
+
+2015/11/06 10:42:40----
+insert into `user` (`mobile_phone`,`password`,`status`,`add_time`) values (?,?,?,?)
+
+2015/11/06 10:42:40----
+select `id` from `user` where  mobile_phone = '18819489668' limit 0, 1
+
+2015/11/06 10:42:40----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`is_pass`,`user_id`,`add_time`) values (?,?,?,?,?,?)
+
+2015/11/06 10:43:28----
+select `id` from `distributor_apply` where  phone = '18819489668' limit 0, 1
+
+2015/11/06 10:43:28----
+select `id` from `user` where  mobile_phone = '18819489668' limit 0, 1
+
+2015/11/06 10:43:28----
+insert into `user` (`mobile_phone`,`password`,`status`,`add_time`) values (?,?,?,?)
+
+2015/11/06 10:43:28----
+select `id` from `user` where  mobile_phone = '18819489668' limit 0, 1
+
+2015/11/06 10:43:28----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`is_pass`,`user_id`,`add_time`) values (?,?,?,?,?,?)
+
+2015/11/06 10:43:47----
+select `id` from `distributor_apply` where  phone = '18819489668' limit 0, 1
+
+2015/11/06 10:43:52----
+select `id` from `distributor_apply` where  phone = '18819489667' limit 0, 1
+
+2015/11/06 10:43:52----
+select `id` from `user` where  mobile_phone = '18819489667' limit 0, 1
+
+2015/11/06 10:43:52----
+insert into `user` (`mobile_phone`,`password`,`status`,`add_time`) values (?,?,?,?)
+
+2015/11/06 10:43:52----
+select `id` from `user` where  mobile_phone = '18819489667' limit 0, 1
+
+2015/11/06 10:47:53----
+select `id` from `distributor_apply` where  phone = '18819489669' limit 0, 1
+
+2015/11/06 10:47:53----
+select `id` from `user` where  mobile_phone = '18819489669' limit 0, 1
+
+2015/11/06 10:47:53----
+insert into `user` (`mobile_phone`,`password`,`status`,`add_time`) values (?,?,?,?)
+
+2015/11/06 10:47:53----
+select `id` from `user` where  mobile_phone = '18819489669' limit 0, 1
+
+2015/11/06 10:47:53----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`area`,`is_pass`,`user_id`,`type`,`add_time`) values (?,?,?,?,?,?,?,?)
+
+2015/11/06 10:48:15----
+select `id` from `distributor_apply` where  phone = '18819489669' limit 0, 1
+
+2015/11/06 10:48:21----
+select `id` from `distributor_apply` where  phone = '18829489669' limit 0, 1
+
+2015/11/06 10:48:21----
+select `id` from `user` where  mobile_phone = '18829489669' limit 0, 1
+
+2015/11/06 10:48:21----
+insert into `user` (`mobile_phone`,`password`,`status`,`add_time`) values (?,?,?,?)
+
+2015/11/06 10:48:21----
+select `id` from `user` where  mobile_phone = '18829489669' limit 0, 1
+
+2015/11/06 10:48:21----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`area`,`is_pass`,`user_id`,`type`,`add_time`) values (?,?,?,?,?,?,?,?)
+
+2015/11/06 10:49:18----
+select `id` from `distributor_apply` where  phone = '13829489669' limit 0, 1
+
+2015/11/06 10:49:18----
+select `id` from `user` where  mobile_phone = '13829489669' limit 0, 1
+
+2015/11/06 10:49:18----
+insert into `user` (`mobile_phone`,`password`,`status`,`add_time`) values (?,?,?,?)
+
+2015/11/06 10:49:18----
+select `id` from `user` where  mobile_phone = '13829489669' limit 0, 1
+
+2015/11/06 10:50:38----
+select `id` from `distributor_apply` where  phone = '13829489679' limit 0, 1
+
+2015/11/06 10:50:38----
+select `id` from `user` where  mobile_phone = '13829489679' limit 0, 1
+
+2015/11/06 10:50:38----
+insert into `user` (`mobile_phone`,`password`,`status`,`add_time`) values (?,?,?,?)
+
+2015/11/06 10:50:38----
+select `id` from `user` where  mobile_phone = '13829489679' limit 0, 1
+
+2015/11/06 10:50:53----
+select `id` from `distributor_apply` where  phone = '13829489679' limit 0, 1
+
+2015/11/06 10:50:53----
+select `id` from `user` where  mobile_phone = '13829489679' limit 0, 1
+
+2015/11/06 10:50:53----
+insert into `user` (`mobile_phone`,`password`,`status`,`add_time`) values (?,?,?,?)
+
+2015/11/06 10:50:53----
+select `id` from `user` where  mobile_phone = '13829489679' limit 0, 1
+
+2015/11/06 10:50:53----
+insert into `distributor_apply` (`phone`,`name`,`shop_name`,`apply_level`,`area`,`is_pass`,`user_id`,`type`,`add_time`) values (?,?,?,?,?,?,?,?,?)
+
+2015/11/06 11:15:08----
+select `id` from `distributor_apply` where  phone = '13829489679' limit 0, 1
+
+2015/11/06 11:15:11----
+select `id` from `distributor_apply` where  phone = '13829489779' limit 0, 1
+
+2015/11/06 11:15:11----
+select `id` from `user` where  mobile_phone = '13829489779'
+
+2015/11/06 11:15:28----
+select `id` from `distributor_apply` where  phone = '15976898956' limit 0, 1
+
+2015/11/06 11:15:28----
+select `id` from `user` where  mobile_phone = '15976898956'
+
+2015/11/06 11:15:28----
+insert into `distributor_apply` (`phone`,`name`,`shop_name`,`apply_level`,`apply_money`,`area`,`user_id`,`add_time`) values (?,?,?,?,?,?,?,?)
+
+2015/11/06 11:16:11----
+select `id` from `user` where  mobile_phone = '15666666666' limit 0, 1
+
+2015/11/06 11:16:11----
+select `id` from `distributor_apply` where  phone = '15976898956' limit 0, 1
+
+2015/11/06 11:16:11----
+select `id` from `user` where  mobile_phone = '15976898956'
+
+2015/11/06 11:16:11----
+insert into `distributor_apply` (`phone`,`name`,`shop_name`,`apply_level`,`apply_money`,`area`,`parent_id`,`user_id`,`add_time`) values (?,?,?,?,?,?,?,?,?)
+
+2015/11/06 11:17:09----
+select `id` from `user` where  mobile_phone = '15666666666' limit 0, 1
+
+2015/11/06 11:17:09----
+select `id` from `distributor_apply` where  phone = '15976898956' limit 0, 1
+
+2015/11/06 11:17:09----
+select `id` from `user` where  mobile_phone = '15976898956'
+
+2015/11/06 11:17:09----
+insert into `distributor_apply` (`phone`,`name`,`shop_name`,`apply_level`,`apply_money`,`area`,`parent_id`,`user_id`,`type`,`add_time`) values (?,?,?,?,?,?,?,?,?,?)
+
+2015/11/06 11:17:27----
+select `id` from `user` where  mobile_phone = '15666666666' limit 0, 1
+
+2015/11/06 11:17:27----
+select `id` from `distributor_apply` where  phone = '15976898956' limit 0, 1
+
+2015/11/06 11:17:27----
+select `id` from `user` where  mobile_phone = '15976898956'
+
+2015/11/06 11:17:27----
+insert into `distributor_apply` (`phone`,`name`,`shop_name`,`apply_level`,`apply_money`,`area`,`parent_id`,`user_id`,`type`,`add_time`) values (?,?,?,?,?,?,?,?,?,?)
+
+2015/11/06 11:17:38----
+select `id` from `user` where  mobile_phone = '15666666666' limit 0, 1
+
+2015/11/06 11:17:38----
+select `id` from `distributor_apply` where  phone = '15976898956' limit 0, 1
+
+2015/11/06 11:17:38----
+select `id` from `user` where  mobile_phone = '15976898956'
+
+2015/11/06 11:17:38----
+insert into `distributor_apply` (`phone`,`name`,`shop_name`,`apply_level`,`apply_money`,`area`,`parent_id`,`user_id`,`type`,`remark`,`add_time`) values (?,?,?,?,?,?,?,?,?,?,?)
+
+2015/11/06 11:17:40----
+select `id` from `user` where  mobile_phone = '15666666666' limit 0, 1
+
+2015/11/06 11:17:40----
+select `id` from `distributor_apply` where  phone = '15976898956' limit 0, 1
+

@@ -10,7 +10,7 @@
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 </head>
 <body>
-<form action="Admin/Article/articleOneEdit?id=14" method="post" enctype="multipart/form-data">
+<form action="Admin/Article/articleOneEdit?id=73" method="post" enctype="multipart/form-data">
 	<div>
 		<label for="name">cat_id:</label>
 		<input type="text" name="cat_id" id="cat_id" value="" tabindex="1" />
@@ -28,10 +28,6 @@
 		<input type="file" name="Pic" /><br>
 		<input type="text" name="" id="Pic" value="" tabindex="1" />
 	</div><br>
-	<div>
-		<label for="name">Url:</label>
-		<input type="text" name="Url" id="Url" value="" />
-	</div><br>
 
 	<div>
 		<input type="submit" value="Submit" />
@@ -43,7 +39,7 @@
 <script type="text/javascript">
             $("document").ready(function() {
                 
-                var url ="Admin/Article/articleOneDetail?id=14";
+                var url ="Admin/Article/articleOneDetail?id=73";
                 var data={};
                 
                 $.getJSON(url,data,function(res){
@@ -52,7 +48,6 @@
                 	$("#title").val(res.data.article.title);
                 	$("#content").val(res.data.article.content);
                 	$("#Pic").val(res.data.article.Pic);
-                	$("#Url").val(res.data.article.Url);
                 });
             });
         </script>

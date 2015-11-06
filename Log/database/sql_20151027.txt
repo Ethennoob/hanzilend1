@@ -1,0 +1,444 @@
+2015/10/27 11:03:15----
+insert into `article` (`cat_id`,`title`,`content`,`add_time`) values (?,?,?,?)
+
+2015/10/27 11:07:39----
+insert into `article` (`cat_id`,`title`,`content`,`add_time`) values (?,?,?,?)
+
+2015/10/27 11:09:08----
+insert into `article` (`cat_id`,`title`,`content`,`add_time`) values (?,?,?,?)
+
+2015/10/27 11:09:51----
+insert into `article` (`cat_id`,`title`,`content`,`add_time`) values (?,?,?,?)
+
+2015/10/27 11:10:28----
+insert into `article` (`cat_id`,`title`,`content`,`add_time`) values (?,?,?,?)
+
+2015/10/27 11:11:14----
+insert into `article` (`cat_id`,`title`,`content`,`add_time`) values (?,?,?,?)
+
+2015/10/27 11:11:48----
+insert into `article` (`cat_id`,`title`,`content`,`add_time`) values (?,?,?,?)
+
+2015/10/27 11:12:44----
+select count(*) from `article` where  is_on = 1
+
+2015/10/27 11:12:44----
+select `id`,`cat_id`,`title`,`content`,`pic`,`url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 order by add_time desc limit 0, 15
+Unknown column 'url' in 'field list'
+2015/10/27 11:12:44----
+select `id`,`cat_id`,`title`,`content`,`pic`,`url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 order by add_time desc limit 0, 15
+Unknown column 'url' in 'field list'
+2015/10/27 11:14:39----
+insert into `article` (`cat_id`,`title`,`content`,`Pic`,`add_time`) values (?,?,?,?,?)
+
+2015/10/27 11:15:15----
+insert into `article` (`cat_id`,`title`,`content`,`Pic`,`add_time`) values (?,?,?,?,?)
+
+2015/10/27 11:19:01----
+insert into `article` (`cat_id`,`title`,`content`,`Pic`,`add_time`) values (?,?,?,?,?)
+
+2015/10/27 11:21:42----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 69 limit 0, 1
+
+2015/10/27 11:22:43----
+select `id` from `article` where  id = 69 AND is_on = 1 limit 0, 1
+
+2015/10/27 11:22:43----
+update `article` set `cat_id`=?,`title`=?,`content`=?,`Pic`=?,`update_time`=? where  id = 69
+
+2015/10/27 11:41:35----
+select `id` from `article` where  id = 69 AND is_on = 1 limit 0, 1
+
+2015/10/27 11:41:35----
+select `Pic` from `article` where  id = 69 AND is_on = 1 limit 0, 1
+
+2015/10/27 11:42:47----
+select `id` from `article` where  id = 69 AND is_on = 1 limit 0, 1
+
+2015/10/27 11:42:47----
+select `Pic` from `article` where  id = 69 AND is_on = 1 limit 0, 1
+
+2015/10/27 11:42:47----
+delete from `article` where  id = 69
+
+2015/10/27 11:44:13----
+insert into `article` (`cat_id`,`title`,`content`,`Pic`,`add_time`) values (?,?,?,?,?)
+
+2015/10/27 11:44:24----
+select `id` from `article` where  id = 70 AND is_on = 1 limit 0, 1
+
+2015/10/27 11:44:24----
+select `Pic` from `article` where  id = 70 AND is_on = 1 limit 0, 1
+
+2015/10/27 11:45:56----
+select `id` from `article` where  id = 70 AND is_on = 1 limit 0, 1
+
+2015/10/27 11:45:56----
+select `Pic` from `article` where  id = 70 AND is_on = 1 limit 0, 1
+
+2015/10/27 11:49:44----
+select `Pic` from `article` where  id = null AND is_on = 1 limit 0, 1
+
+2015/10/27 11:50:59----
+select `Pic` from `article` where  id = null AND is_on = 1 limit 0, 1
+
+2015/10/27 11:51:00----
+select `Pic` from `article` where  id = null AND is_on = 1 limit 0, 1
+
+2015/10/27 11:51:00----
+select `Pic` from `article` where  id = null AND is_on = 1 limit 0, 1
+
+2015/10/27 11:51:12----
+select `Pic` from `article` where  id = 0 AND is_on = 1 limit 0, 1
+
+2015/10/27 11:51:21----
+select `Pic` from `article` where  id = 70 AND is_on = 1 limit 0, 1
+
+2015/10/27 11:51:48----
+select `Pic` from `article` where  id = 70 AND is_on = 1 limit 0, 1
+
+2015/10/27 11:52:12----
+select `Pic` from `article` where  id = 70 AND is_on = 1 limit 0, 1
+
+2015/10/27 11:54:55----
+select `Pic` from `article` where  id = 70 AND is_on = 1 limit 0, 1
+
+2015/10/27 11:57:13----
+select `Pic` from `article` where  id = 70 AND is_on = 1 limit 0, 1
+
+2015/10/27 11:57:28----
+select `Pic` from `article` where  id = 70 AND is_on = 1 limit 0, 1
+
+2015/10/27 11:58:41----
+select `id` from `article` where  id = 70 AND is_on = 1 limit 0, 1
+
+2015/10/27 11:58:41----
+select `Pic` from `article` where  id = 70 AND is_on = 1 limit 0, 1
+
+2015/10/27 11:59:06----
+insert into `article` (`cat_id`,`title`,`content`,`Pic`,`add_time`) values (?,?,?,?,?)
+
+2015/10/27 11:59:15----
+select `id` from `article` where  id = 71 AND is_on = 1 limit 0, 1
+
+2015/10/27 11:59:15----
+select `Pic` from `article` where  id = 71 AND is_on = 1 limit 0, 1
+
+2015/10/27 11:59:15----
+delete from `article` where  id = 71
+
+2015/10/27 12:59:26----
+insert into `article` (`cat_id`,`title`,`content`,`Pic`,`add_time`) values (?,?,?,?,?)
+
+2015/10/27 12:59:34----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 69 limit 0, 1
+
+2015/10/27 12:59:50----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 71 limit 0, 1
+
+2015/10/27 13:00:26----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 72 limit 0, 1
+
+2015/10/27 13:00:42----
+select `id` from `article` where  id = 72 AND is_on = 1 limit 0, 1
+
+2015/10/27 13:00:42----
+select `Pic` from `article` where  id = 72 AND is_on = 1 limit 0, 1
+
+2015/10/27 13:00:42----
+update `article` set `cat_id`=?,`title`=?,`content`=?,`Pic`=?,`update_time`=? where  id = 72
+
+2015/10/27 13:04:51----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 0 limit 0, 1
+
+2015/10/27 13:04:57----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 0 limit 0, 1
+
+2015/10/27 13:06:47----
+select count(*) from `article` where  is_on = 1
+
+2015/10/27 13:06:47----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/27 13:12:24----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 71 limit 0, 1
+
+2015/10/27 13:13:04----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 71 limit 0, 1
+
+2015/10/27 13:13:14----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 71 limit 0, 1
+
+2015/10/27 13:13:15----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 71 limit 0, 1
+
+2015/10/27 13:13:16----
+select count(*) from `article` where  is_on = 1
+
+2015/10/27 13:13:16----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/27 13:13:17----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 0 limit 0, 1
+
+2015/10/27 13:13:56----
+insert into `article` (`cat_id`,`title`,`content`,`Pic`,`add_time`) values (?,?,?,?,?)
+
+2015/10/27 13:14:13----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 73 limit 0, 1
+
+2015/10/27 14:11:05----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`updat_time`,`is_on` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/27 14:12:06----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`updat_time`,`is_on` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/27 14:12:51----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`updat_time`,`is_on` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/10/27 14:26:10----
+insert into `user` (`mobile_phone`,`password`,`add_time`) values (?,?,?)
+
+2015/10/27 14:26:27----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`updat_time`,`is_on` from `user` where  is_on = 1 AND id = 2 limit 0, 1
+
+2015/10/27 14:28:13----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`updat_time`,`is_on` from `user` where  is_on = 1 AND id = 2 limit 0, 1
+
+2015/10/27 14:29:15----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`updat_time`,`is_on` from `user` where  is_on = 1 AND id = 2 limit 0, 1
+
+2015/10/27 14:34:53----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 73 limit 0, 1
+
+2015/10/27 14:35:13----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 72 limit 0, 1
+
+2015/10/27 14:37:21----
+select count(*) from `article` where  is_on = 1
+
+2015/10/27 14:37:21----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/27 14:37:26----
+select count(*) from `article` where  is_on = 1
+
+2015/10/27 14:37:26----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/27 14:37:44----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 71 limit 0, 1
+
+2015/10/27 14:38:17----
+insert into `article` (`cat_id`,`title`,`content`,`Pic`,`add_time`) values (?,?,?,?,?)
+
+2015/10/27 14:38:22----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 74 limit 0, 1
+
+2015/10/27 14:46:10----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 74 limit 0, 1
+
+2015/10/27 14:46:12----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 74 limit 0, 1
+
+2015/10/27 14:46:12----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 74 limit 0, 1
+
+2015/10/27 14:46:13----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 74 limit 0, 1
+
+2015/10/27 14:46:13----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 74 limit 0, 1
+
+2015/10/27 14:46:13----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 74 limit 0, 1
+
+2015/10/27 14:46:14----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 74 limit 0, 1
+
+2015/10/27 14:46:14----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 74 limit 0, 1
+
+2015/10/27 14:46:15----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 74 limit 0, 1
+
+2015/10/27 14:46:15----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 74 limit 0, 1
+
+2015/10/27 14:46:15----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 74 limit 0, 1
+
+2015/10/27 14:46:15----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 74 limit 0, 1
+
+2015/10/27 14:46:15----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 74 limit 0, 1
+
+2015/10/27 14:46:18----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 74 limit 0, 1
+
+2015/10/27 14:46:18----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 74 limit 0, 1
+
+2015/10/27 14:46:18----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 74 limit 0, 1
+
+2015/10/27 14:46:19----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 74 limit 0, 1
+
+2015/10/27 14:48:40----
+select count(*) from `user` where  is_on = 1
+
+2015/10/27 14:48:40----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`updat_time`,`is_on` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/27 14:49:16----
+select count(*) from `user` where  is_on = 1
+
+2015/10/27 14:49:16----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`updat_time`,`is_on` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/27 14:49:59----
+select count(*) from `user` where  is_on = 1
+
+2015/10/27 14:49:59----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`updat_time`,`is_on` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/27 14:50:00----
+select count(*) from `user` where  is_on = 1
+
+2015/10/27 14:50:00----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`user_img`,`add_time`,`updat_time`,`is_on` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/10/27 15:24:14----
+select `id` from `user` where  id = 2 AND is_on = 1 limit 0, 1
+
+2015/10/27 15:24:14----
+update `user` set `is_on`=? where  id = 2
+
+2015/10/27 15:24:16----
+select `id` from `user` where  id = 2 AND is_on = 1 limit 0, 1
+
+2015/10/27 15:24:17----
+select `id` from `user` where  id = 2 AND is_on = 1 limit 0, 1
+
+2015/10/27 15:24:18----
+select `id` from `user` where  id = 2 AND is_on = 1 limit 0, 1
+
+2015/10/27 15:24:33----
+select `id` from `user` where  id = 1 AND is_on = 1 limit 0, 1
+
+2015/10/27 15:24:33----
+update `user` set `is_on`=? where  id = 1
+
+2015/10/27 16:04:06----
+select `id` from `user` where  id = 1 AND is_on = 1 limit 0, 1
+
+2015/10/27 16:04:06----
+select `password` from `user` where  id = 1 AND is_on = 1 limit 0, 1
+
+2015/10/27 16:09:29----
+select `id` from `user` where  id = 1 AND is_on = 1 limit 0, 1
+
+2015/10/27 16:09:29----
+select `password` from `user` where  id = 1 AND is_on = 1 limit 0, 1
+
+2015/10/27 16:09:29----
+update `user` set `password`=? where  id = 1
+
+2015/10/27 16:09:42----
+select `id` from `user` where  id = 1 AND is_on = 1 limit 0, 1
+
+2015/10/27 16:09:42----
+select `password` from `user` where  id = 1 AND is_on = 1 limit 0, 1
+
+2015/10/27 16:09:50----
+select `id` from `user` where  id = 1 AND is_on = 1 limit 0, 1
+
+2015/10/27 16:09:50----
+select `password` from `user` where  id = 1 AND is_on = 1 limit 0, 1
+
+2015/10/27 16:09:50----
+update `user` set `password`=? where  id = 1
+
+2015/10/27 17:07:41----
+select `mobile_phone`,`password` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/10/27 17:08:15----
+select `mobile_phone`,`password` from `user` where  is_on = 1 limit 0, 1
+
+2015/10/27 17:08:31----
+select `mobile_phone`,`password` from `user` where  is_on = 1 limit 0, 1
+
+2015/10/27 17:12:19----
+select `mobile_phone`,`password` from `user` where  is_on = 1 AND mobile_phone = '2147483647' AND password = '123456' limit 0, 1
+
+2015/10/27 17:12:34----
+select `id` from `user` where  is_on = 1 AND mobile_phone = '2147483647' AND password = '123456' limit 0, 1
+
+2015/10/27 17:12:54----
+select `id` from `user` where  is_on = 1 AND mobile_phone = '2147483647' AND password = '123456' limit 0, 1
+
+2015/10/27 17:13:29----
+select `id` from `user` where  is_on = 1 AND mobile_phone = '2147483647' AND password = 'e10adc3949ba59abbe56e057f20f883e' limit 0, 1
+
+2015/10/27 17:17:44----
+select `id` from `user` where  is_on = 1 AND mobile_phone = '2147483647' limit 0, 1
+
+2015/10/27 17:17:50----
+select `id` from `user` where  is_on = 1 AND mobile_phone = '214783647' limit 0, 1
+
+2015/10/27 17:18:42----
+select `id` from `user` where  is_on = 1 AND mobile_phone = '214783647' limit 0, 1
+
+2015/10/27 17:20:24----
+select `id` from `user` where  is_on = 1 AND mobile_phone = '214783647' limit 0, 1
+
+2015/10/27 17:20:36----
+select `id` from `user` where  is_on = 1 AND mobile_phone = '2147483647' limit 0, 1
+
+2015/10/27 17:20:36----
+select `password` from `user` where  is_on = 1 AND mobile_phone = '2147483647' limit 0, 1
+
+2015/10/27 17:27:17----
+select `id` from `user` where  is_on = 1 AND mobile_phone = '2147483647' limit 0, 1
+
+2015/10/27 17:27:17----
+select `password` from `user` where  is_on = 1 AND mobile_phone = '2147483647' limit 0, 1
+
+2015/10/27 17:35:57----
+select `id` from `user` where  is_on = 1 AND mobile_phone = '2147483647' limit 0, 1
+
+2015/10/27 17:35:57----
+select `password` from `user` where  is_on = 1 AND mobile_phone = '2147483647' limit 0, 1
+
+2015/10/27 17:36:02----
+select `id` from `user` where  is_on = 1 AND mobile_phone = '2147483647' limit 0, 1
+
+2015/10/27 17:36:02----
+select `password` from `user` where  is_on = 1 AND mobile_phone = '2147483647' limit 0, 1
+
+2015/10/27 17:36:16----
+select `id` from `user` where  is_on = 1 AND mobile_phone = '2147483647' limit 0, 1
+
+2015/10/27 17:36:16----
+select `password` from `user` where  is_on = 1 AND mobile_phone = '2147483647' limit 0, 1
+
+2015/10/27 17:36:20----
+select `id` from `user` where  is_on = 1 AND mobile_phone = '2147483647' limit 0, 1
+
+2015/10/27 17:36:20----
+select `password` from `user` where  is_on = 1 AND mobile_phone = '2147483647' limit 0, 1
+
+2015/10/27 17:36:31----
+select `id` from `user` where  is_on = 1 AND mobile_phone = '2147483647' limit 0, 1
+
+2015/10/27 17:36:32----
+select `password` from `user` where  is_on = 1 AND mobile_phone = '2147483647' limit 0, 1
+
+2015/10/27 17:50:33----
+select `id` from `user` where  is_on = 1 AND mobile_phone = '2147483647' limit 0, 1
+
+2015/10/27 17:50:33----
+select `password` from `user` where  is_on = 1 AND mobile_phone = '2147483647' limit 0, 1
+

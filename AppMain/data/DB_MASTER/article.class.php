@@ -8,7 +8,6 @@ protected function initTable(){ $this->fields=[
 'title'=> ['type' => 's', 'value' => null],
 'content'=> ['type' => 's', 'value' => null],
 'Pic'=> ['type' => 's', 'value' => null],
-'Url'=> ['type' => 's', 'value' => null],
 'add_time'=> ['type' => 'i', 'value' => null],
 'update_time'=> ['type' => 'i', 'value' => null],
 'is_on'=> ['type' => 'i', 'value' => null],

@@ -1,0 +1,873 @@
+2015/11/04 11:09:06----
+select count(*) from `user` where  is_on = 1
+
+2015/11/04 11:09:06----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`commission`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_follow`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/11/04 11:09:49----
+select count(*) from `user` where  is_on = 1
+
+2015/11/04 11:09:49----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`commission`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_follow`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/11/04 11:12:22----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`commission`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_follow`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  is_froze = 0 limit 0, 1
+
+2015/11/04 11:12:22----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`commission`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_follow`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  password = 'e10adc3949ba59abbe56e057f20f883e' limit 0, 1
+
+2015/11/04 11:12:22----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`commission`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_follow`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  mobile_phone = '13640888629' limit 0, 1
+
+2015/11/04 11:12:23----
+update `user` set `last_login`=?,`last_ip`=? where  id = 1
+
+2015/11/04 11:12:23----
+select `mall_own_private` from `user` where  id = 1 limit 0, 1
+
+2015/11/04 11:13:18----
+select count(*) from `user` where  is_on = 1
+
+2015/11/04 11:13:18----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`commission`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_follow`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/11/04 11:14:30----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`apply_money`,`area`,`remark`,`add_time`) values (?,?,?,?,?,?,?)
+
+2015/11/04 11:23:58----
+select `id` from `user` where  mobile_phone = '15976898951' limit 0, 1
+
+2015/11/04 11:24:21----
+select `id` from `user` where  mobile_phone = '13640888629' limit 0, 1
+
+2015/11/04 11:24:22----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`apply_money`,`area`,`remark`,`add_time`) values (?,?,?,?,?,?,?)
+
+2015/11/04 11:25:05----
+select `id` from `user` where  mobile_phone = '13640888529' limit 0, 1
+
+2015/11/04 11:33:15----
+select `id` from `user` where  mobile_phone = '13640888629' limit 0, 1
+
+2015/11/04 11:33:15----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`apply_money`,`area`,`remark`,`add_time`) values (?,?,?,?,?,?,?)
+
+2015/11/04 11:34:47----
+select `id` from `user` where  mobile_phone = '13640888623' limit 0, 1
+
+2015/11/04 11:38:33----
+select `id` from `distributor_apply` where  phone = '13640888626' limit 0, 1
+
+2015/11/04 11:38:53----
+select `id` from `distributor_apply` where  phone = '13640888626' limit 0, 1
+
+2015/11/04 12:21:00----
+select `id` from `distributor_apply` where  phone = '13640888626' limit 0, 1
+
+2015/11/04 12:21:04----
+select `id` from `distributor_apply` where  phone = '13640888629' limit 0, 1
+
+2015/11/04 12:21:04----
+select `id` from `user` where  mobile_phone = '13640888629' limit 0, 1
+
+2015/11/04 12:21:04----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`apply_money`,`area`,`remark`,`add_time`) values (?,?,?,?,?,?,?)
+
+2015/11/04 12:22:29----
+select `id` from `distributor_apply` where  phone = '13640888629' limit 0, 1
+
+2015/11/04 12:22:29----
+select `id` from `user` where  mobile_phone = '13640888629' limit 0, 1
+
+2015/11/04 12:22:29----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`apply_money`,`area`,`parent_id`,`remark`,`add_time`) values (?,?,?,?,?,?,?,?)
+
+2015/11/04 12:25:19----
+select `id` from `distributor_apply` where  phone = '13640888629' limit 0, 1
+
+2015/11/04 12:25:19----
+select `id` from `user` where  mobile_phone = '13640888629' limit 0, 1
+
+2015/11/04 12:25:19----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`apply_money`,`area`,`parent_id`,`remark`,`add_time`) values (?,?,?,?,?,?,?,?)
+
+2015/11/04 12:25:30----
+select `id` from `distributor_apply` where  phone = '13740888629' limit 0, 1
+
+2015/11/04 12:25:47----
+select `id` from `distributor_apply` where  phone = '13740888629' limit 0, 1
+
+2015/11/04 12:25:48----
+select `id` from `distributor_apply` where  phone = '13740888629' limit 0, 1
+
+2015/11/04 12:25:49----
+select `id` from `distributor_apply` where  phone = '13740888629' limit 0, 1
+
+2015/11/04 12:25:50----
+select `id` from `distributor_apply` where  phone = '13740888629' limit 0, 1
+
+2015/11/04 14:21:54----
+select `id` from `distributor_apply` where  phone = '15976898951' limit 0, 1
+
+2015/11/04 14:21:54----
+select `id` from `user` where  mobile_phone = '15976898951' limit 0, 1
+
+2015/11/04 14:22:04----
+select `id` from `distributor_apply` where  phone = '13640888629' limit 0, 1
+
+2015/11/04 14:22:04----
+select `id` from `user` where  mobile_phone = '13640888629' limit 0, 1
+
+2015/11/04 14:22:04----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`apply_money`,`area`,`parent_id`,`remark`,`add_time`) values (?,?,?,?,?,?,?,?)
+
+2015/11/04 14:35:26----
+select `id` from `distributor_apply` where  phone = '13640888629' limit 0, 1
+
+2015/11/04 14:35:26----
+select `id` from `user` where  mobile_phone = '13640888629' limit 0, 1
+
+2015/11/04 14:35:26----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`apply_money`,`area`,`parent_id`,`remark`,`add_time`) values (?,?,?,?,?,?,?,?)
+
+2015/11/04 14:35:27----
+select `id` from `distributor_apply` where  phone = '13640888629' limit 0, 1
+
+2015/11/04 14:35:27----
+select `id` from `user` where  mobile_phone = '13640888629' limit 0, 1
+
+2015/11/04 14:35:27----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`apply_money`,`area`,`parent_id`,`remark`,`add_time`) values (?,?,?,?,?,?,?,?)
+
+2015/11/04 14:35:27----
+select `id` from `distributor_apply` where  phone = '13640888629' limit 0, 1
+
+2015/11/04 14:35:27----
+select `id` from `user` where  mobile_phone = '13640888629' limit 0, 1
+
+2015/11/04 14:35:27----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`apply_money`,`area`,`parent_id`,`remark`,`add_time`) values (?,?,?,?,?,?,?,?)
+
+2015/11/04 14:35:55----
+select `id` from `distributor_apply` where  phone = '13640888629' limit 0, 1
+
+2015/11/04 14:35:55----
+select `id` from `user` where  mobile_phone = '13640888629' limit 0, 1
+
+2015/11/04 14:35:55----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`apply_money`,`area`,`remark`,`add_time`) values (?,?,?,?,?,?,?)
+
+2015/11/04 14:35:56----
+select `id` from `distributor_apply` where  phone = '13640888629' limit 0, 1
+
+2015/11/04 14:35:56----
+select `id` from `user` where  mobile_phone = '13640888629' limit 0, 1
+
+2015/11/04 14:35:56----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`apply_money`,`area`,`remark`,`add_time`) values (?,?,?,?,?,?,?)
+
+2015/11/04 14:35:57----
+select `id` from `distributor_apply` where  phone = '13640888629' limit 0, 1
+
+2015/11/04 14:35:57----
+select `id` from `user` where  mobile_phone = '13640888629' limit 0, 1
+
+2015/11/04 14:35:57----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`apply_money`,`area`,`remark`,`add_time`) values (?,?,?,?,?,?,?)
+
+2015/11/04 14:38:27----
+select `id` from `distributor_apply` where  phone = '13640888629' limit 0, 1
+
+2015/11/04 14:38:29----
+select `id` from `distributor_apply` where  phone = '13640888629' limit 0, 1
+
+2015/11/04 14:38:29----
+select `id` from `distributor_apply` where  phone = '13640888629' limit 0, 1
+
+2015/11/04 14:38:44----
+select `id` from `distributor_apply` where  phone = '13640888669' limit 0, 1
+
+2015/11/04 14:38:44----
+select `id` from `user` where  mobile_phone = '13640888669' limit 0, 1
+
+2015/11/04 14:38:49----
+select `id` from `distributor_apply` where  phone = '13640888669' limit 0, 1
+
+2015/11/04 14:38:49----
+select `id` from `user` where  mobile_phone = '13640888669' limit 0, 1
+
+2015/11/04 14:40:45----
+select `id` from `distributor_apply` where  phone = '13640888669' limit 0, 1
+
+2015/11/04 14:40:45----
+select `id` from `user` where  mobile_phone = '13640888669' limit 0, 1
+
+2015/11/04 14:40:47----
+select `id` from `distributor_apply` where  phone = '13640888669' limit 0, 1
+
+2015/11/04 14:40:47----
+select `id` from `user` where  mobile_phone = '13640888669' limit 0, 1
+
+2015/11/04 14:40:47----
+select `id` from `distributor_apply` where  phone = '13640888669' limit 0, 1
+
+2015/11/04 14:40:47----
+select `id` from `user` where  mobile_phone = '13640888669' limit 0, 1
+
+2015/11/04 14:40:50----
+select `id` from `distributor_apply` where  phone = '13640888629' limit 0, 1
+
+2015/11/04 14:40:50----
+select `id` from `distributor_apply` where  phone = '13640888629' limit 0, 1
+
+2015/11/04 14:41:06----
+select `id` from `distributor_apply` where  phone = '13640888629' limit 0, 1
+
+2015/11/04 14:41:23----
+select `id` from `distributor_apply` where  phone = '13640888629' limit 0, 1
+
+2015/11/04 14:41:23----
+select `id` from `user` where  mobile_phone = '13640888629' limit 0, 1
+
+2015/11/04 14:41:23----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`apply_money`,`area`,`parent_id`,`remark`,`add_time`) values (?,?,?,?,?,?,?,?)
+
+2015/11/04 14:41:24----
+select `id` from `distributor_apply` where  phone = '13640888629' limit 0, 1
+
+2015/11/04 14:41:35----
+select `id` from `distributor_apply` where  phone = '13640888629' limit 0, 1
+
+2015/11/04 14:41:49----
+select `id` from `distributor_apply` where  phone = '13640888239' limit 0, 1
+
+2015/11/04 14:41:49----
+select `id` from `user` where  mobile_phone = '13640888239' limit 0, 1
+
+2015/11/04 14:47:52----
+select `id` from `distributor_apply` where  id = 1 AND is_on = 1 AND is_pass = 0 limit 0, 1
+
+2015/11/04 14:47:53----
+select `id` from `distributor_apply` where  id = 1 AND is_on = 1 AND is_pass = 0 limit 0, 1
+
+2015/11/04 14:48:18----
+select `id` from `distributor_apply` where  id = 1 AND is_on = 1 AND is_pass = 0 limit 0, 1
+
+2015/11/04 14:49:11----
+select `id` from `distributor_apply` where  id = 1 AND is_on = 1 AND is_pass = 0 limit 0, 1
+
+2015/11/04 14:49:13----
+select `id` from `distributor_apply` where  id = 17 AND is_on = 1 AND is_pass = 0 limit 0, 1
+
+2015/11/04 14:52:07----
+select `id` from `distributor_apply` where  id = 17 AND is_on = 1 AND is_pass = 0 limit 0, 1
+
+2015/11/04 14:52:07----
+update `distributor_apply` set `is_pass`=?,`update_time`=? where  id = 17
+
+2015/11/04 14:52:10----
+select `id` from `distributor_apply` where  id = 17 AND is_on = 1 AND is_pass = 0 limit 0, 1
+
+2015/11/04 14:52:11----
+select `id` from `distributor_apply` where  id = 17 AND is_on = 1 AND is_pass = 0 limit 0, 1
+
+2015/11/04 14:52:20----
+select `id` from `distributor_apply` where  id = 1 AND is_on = 1 AND is_pass = 0 limit 0, 1
+
+2015/11/04 14:52:20----
+update `distributor_apply` set `is_pass`=?,`update_time`=? where  id = 1
+
+2015/11/04 14:52:22----
+select `id` from `distributor_apply` where  id = 2 AND is_on = 1 AND is_pass = 0 limit 0, 1
+
+2015/11/04 14:52:22----
+update `distributor_apply` set `is_pass`=?,`update_time`=? where  id = 2
+
+2015/11/04 14:52:25----
+select `id` from `distributor_apply` where  id = 3 AND is_on = 1 AND is_pass = 0 limit 0, 1
+
+2015/11/04 14:52:25----
+update `distributor_apply` set `is_pass`=?,`update_time`=? where  id = 3
+
+2015/11/04 14:52:26----
+select `id` from `distributor_apply` where  id = 3 AND is_on = 1 AND is_pass = 0 limit 0, 1
+
+2015/11/04 14:52:28----
+select `id` from `distributor_apply` where  id = 4 AND is_on = 1 AND is_pass = 0 limit 0, 1
+
+2015/11/04 15:12:05----
+select `id` from `distributor_apply` where  phone = '15976898951' limit 0, 1
+
+2015/11/04 15:12:05----
+select `id` from `user` where  mobile_phone = '15976898951' limit 0, 1
+
+2015/11/04 15:12:05----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`apply_money`,`area`,`parent_id`,`remark`,`add_time`) values (?,?,?,?,?,?,?,?)
+
+2015/11/04 15:12:54----
+select `id` from `distributor_apply` where  phone = '15976898956' limit 0, 1
+
+2015/11/04 15:12:54----
+select `id` from `user` where  mobile_phone = '15976898956' limit 0, 1
+
+2015/11/04 15:12:54----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`apply_money`,`area`,`parent_id`,`remark`,`add_time`) values (?,?,?,?,?,?,?,?)
+
+2015/11/04 15:16:47----
+select `id` from `distributor_apply` where  phone = '15976898956' limit 0, 1
+
+2015/11/04 15:19:15----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:19:15----
+select `id` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:19:20----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:19:20----
+select `id` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:19:20----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`apply_money`,`area`,`parent_id`,`remark`,`add_time`) values (?,?,?,?,?,?,?,?)
+
+2015/11/04 15:20:13----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:20:13----
+select `id` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:20:13----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`apply_money`,`area`,`parent_id`,`remark`,`add_time`) values (?,?,?,?,?,?,?,?)
+
+2015/11/04 15:23:00----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:23:08----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:23:08----
+select `id` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:25:13----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:25:13----
+select `id` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:25:44----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:25:44----
+select `id` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:25:44----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`apply_money`,`area`,`parent_id`,`remark`,`add_time`) values (?,?,?,?,?,?,?,?)
+
+2015/11/04 15:26:42----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:26:52----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:26:52----
+select `id` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:27:48----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:27:48----
+select `id` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:28:18----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:28:18----
+select `id` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:28:53----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:28:53----
+select `id` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:29:01----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:29:01----
+select `id` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:29:14----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:29:14----
+select `id` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:29:34----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:29:34----
+select `id` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:29:42----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:29:42----
+select `id` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:30:08----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:30:08----
+select `id` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:30:51----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:30:51----
+select `id` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:31:04----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:31:04----
+select `id` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:31:23----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:31:23----
+select `id` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:31:36----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:31:36----
+select `id` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:31:45----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:31:45----
+select `id` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:31:59----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:31:59----
+select `id` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:32:14----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:32:14----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`commission`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_follow`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:32:42----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:32:42----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`commission`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_follow`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:33:09----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:33:09----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`commission`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_follow`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:33:09----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`apply_money`,`area`,`parent_id`,`remark`,`add_time`) values (?,?,?,?,?,?,?,?)
+
+2015/11/04 15:35:11----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:35:21----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:35:21----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`commission`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_follow`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:36:02----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:36:02----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`commission`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_follow`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:36:25----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:36:25----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`commission`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_follow`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:36:54----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:36:54----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`commission`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_follow`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:37:31----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:37:31----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`commission`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_follow`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:37:48----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:37:48----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`commission`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_follow`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:38:36----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:38:36----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`commission`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_follow`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:39:06----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:39:06----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`commission`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_follow`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:39:49----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:39:49----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`commission`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_follow`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:39:54----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:39:54----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`commission`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_follow`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:40:29----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:40:29----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`commission`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_follow`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:41:00----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:41:00----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`commission`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_follow`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  mobile_phone = '13245678910'
+
+2015/11/04 15:41:32----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:41:32----
+select `id` from `user` where  mobile_phone = '13245678910' limit 0, 1
+
+2015/11/04 15:41:32----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`apply_money`,`area`,`parent_id`,`user_id`,`remark`,`add_time`) values (?,?,?,?,?,?,?,?,?)
+
+2015/11/04 15:44:59----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:45:23----
+select `id` from `distributor_apply` where  phone = '13245678910' limit 0, 1
+
+2015/11/04 15:45:42----
+select `id` from `distributor_apply` where  phone = '15976898951' limit 0, 1
+
+2015/11/04 15:45:42----
+select `id` from `user` where  mobile_phone = '15976898951' limit 0, 1
+
+2015/11/04 15:45:42----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`apply_money`,`area`,`parent_id`,`user_id`,`remark`,`add_time`) values (?,?,?,?,?,?,?,?,?)
+
+2015/11/04 16:12:00----
+select A.id as id,A.user_name,A.mobile_phone,A.city,A.mall_own_private,A.status,A.commission,A.add_time,B.shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc
+
+2015/11/04 16:12:00----
+select count(1) from user as A  left join distributor_apply as B on A.id=B.user_id
+
+2015/11/04 16:12:00----
+select A.id as id,A.user_name,A.mobile_phone,A.city,A.mall_own_private,A.status,A.commission,A.add_time,B.shop_name,B.type from user as A  left join distributor_apply as B on A.id=B.user_id order by add_time desc limit 0, 15
+
+2015/11/04 16:12:00----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/11/04 16:12:00----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/11/04 16:12:00----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = 1 limit 0, 1
+
+2015/11/04 16:12:00----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/11/04 16:12:00----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/11/04 16:12:00----
+select `user_name`,`status` from `user` where  is_on = 1 AND id = null limit 0, 1
+
+2015/11/04 16:13:06----
+select A.id as id,A.user_id,A.phone,A.apply_level,A.add_time,B.user_name from distributor_apply as A  left join user as B on A.user_id=B.id
+
+2015/11/04 16:13:06----
+select count(1) from distributor_apply as A  left join user as B on A.user_id=B.id
+
+2015/11/04 16:14:13----
+select A.id as id,A.user_id,A.phone,A.apply_level,A.add_time,B.user_name from distributor_apply as A  left join user as B on A.user_id=B.id where A.is_pass = 1 and A.apply_level = 1
+
+2015/11/04 16:14:13----
+select count(1) from distributor_apply as A  left join user as B on A.user_id=B.id where A.is_pass = 1 and A.apply_level = 1
+
+2015/11/04 16:14:45----
+select A.id as id,A.user_id,A.phone,A.apply_level,A.add_time,B.user_name from distributor_apply as A  left join user as B on A.user_id=B.id where A.is_pass = 1 and A.apply_level = 1
+
+2015/11/04 16:14:45----
+select count(1) from distributor_apply as A  left join user as B on A.user_id=B.id where A.is_pass = 1 and A.apply_level = 1
+
+2015/11/04 16:14:45----
+select A.id as id,A.user_id,A.phone,A.apply_level,A.add_time,B.user_name from distributor_apply as A  left join user as B on A.user_id=B.id where A.is_pass = 1 and A.apply_level = 1 limit 0, 15
+
+2015/11/04 16:15:30----
+select A.id as id,A.user_id,A.phone,A.apply_level,A.add_time,B.user_name from distributor_apply as A  left join user as B on A.user_id=B.id where A.is_pass = 1 and A.apply_level = 2
+
+2015/11/04 16:15:43----
+select A.id as id,A.user_id,A.phone,A.apply_level,A.add_time,B.user_name from distributor_apply as A  left join user as B on A.user_id=B.id where A.is_pass = 1 and A.apply_level = 2
+
+2015/11/04 16:15:43----
+select count(1) from distributor_apply as A  left join user as B on A.user_id=B.id where A.is_pass = 1 and A.apply_level = 2
+
+2015/11/04 16:16:14----
+select A.id as id,A.user_id,A.phone,A.apply_level,A.add_time,B.user_name from distributor_apply as A  left join user as B on A.user_id=B.id where A.is_pass = 1 and A.apply_level = 2
+
+2015/11/04 16:16:14----
+select count(1) from distributor_apply as A  left join user as B on A.user_id=B.id where A.is_pass = 1 and A.apply_level = 2
+
+2015/11/04 16:16:50----
+select A.id as id,A.user_id,A.phone,A.apply_level,A.add_time,B.user_name from distributor_apply as A  left join user as B on A.user_id=B.id where A.is_pass = 1 and A.apply_level = 2
+
+2015/11/04 16:16:51----
+select count(1) from distributor_apply as A  left join user as B on A.user_id=B.id where A.is_pass = 1 and A.apply_level = 2
+
+2015/11/04 16:16:51----
+select A.id as id,A.user_id,A.phone,A.apply_level,A.add_time,B.user_name from distributor_apply as A  left join user as B on A.user_id=B.id where A.is_pass = 1 and A.apply_level = 2 limit 0, 15
+
+2015/11/04 16:54:22----
+select `id`,`phone` from `distributor_apply` where  id = 25 AND is_on = 1 AND is_pass = 0 limit 0, 1
+
+2015/11/04 16:54:50----
+select `id`,`phone` from `distributor_apply` where  id = 25 AND is_on = 1 AND is_pass = 0 limit 0, 1
+
+2015/11/04 16:55:30----
+select `id`,`phone` from `distributor_apply` where  id = 25 AND is_on = 1 AND is_pass = 0
+
+2015/11/04 16:55:56----
+select `id`,`phone` from `distributor_apply` where  id = 25 AND is_on = 1 AND is_pass = 0
+
+2015/11/04 16:55:56----
+update `user` set `status`=? where  mobile_phone = '15976898951'
+
+2015/11/04 16:55:56----
+update `distributor_apply` set `is_pass`=?,`update_time`=? where  id = 25
+
+2015/11/04 16:56:47----
+select `id`,`phone` from `distributor_apply` where  id = 1 AND is_on = 1 AND is_pass = 0
+
+2015/11/04 16:56:59----
+select `id`,`phone` from `distributor_apply` where  id = 1 AND is_on = 1 AND is_pass = 0
+
+2015/11/04 16:56:59----
+update `user` set `status`=? where  mobile_phone = 132131321
+
+2015/11/04 16:56:59----
+update `distributor_apply` set `is_pass`=?,`update_time`=? where  id = 1
+
+2015/11/04 16:57:29----
+select `id`,`phone` from `distributor_apply` where  id = 2 AND is_on = 1 AND is_pass = 0
+
+2015/11/04 16:57:45----
+select `id`,`phone` from `distributor_apply` where  id = 2 AND is_on = 1 AND is_pass = 0
+
+2015/11/04 16:58:00----
+select `id`,`phone` from `distributor_apply` where  id = 2 AND is_on = 1 AND is_pass = 0
+
+2015/11/04 16:58:00----
+update `user` set `status`=? where  mobile_phone = 123456789
+
+2015/11/04 16:58:00----
+update `distributor_apply` set `is_pass`=?,`update_time`=? where  id = 2
+
+2015/11/04 16:58:47----
+select `id`,`phone` from `distributor_apply` where  id = 2 AND is_on = 1 AND is_pass = 0
+
+2015/11/04 16:58:51----
+select `id`,`phone` from `distributor_apply` where  id = 3 AND is_on = 1 AND is_pass = 0
+
+2015/11/04 16:59:14----
+select `id`,`phone` from `distributor_apply` where  id = 2 AND is_on = 1 AND is_pass = 0
+
+2015/11/04 16:59:14----
+update `user` set `status`=? where  mobile_phone = 123456789
+
+2015/11/04 16:59:14----
+update `distributor_apply` set `is_pass`=?,`update_time`=? where  id = 2
+
+2015/11/04 17:00:11----
+select `id`,`phone` from `distributor_apply` where  id = 2 AND is_on = 1 AND is_pass = 0
+
+2015/11/04 17:00:24----
+select `id`,`phone` from `distributor_apply` where  id = 2 AND is_on = 1 AND is_pass = 0
+
+2015/11/04 17:00:25----
+select `id`,`phone` from `distributor_apply` where  id = 2 AND is_on = 1 AND is_pass = 0
+
+2015/11/04 17:00:40----
+select `id`,`phone` from `distributor_apply` where  id = 2 AND is_on = 1 AND is_pass = 0
+
+2015/11/04 17:01:10----
+select `id`,`phone` from `distributor_apply` where  id = 2 AND is_on = 1 AND is_pass = 0
+
+2015/11/04 17:01:26----
+select `id`,`phone` from `distributor_apply` where  id = 2 AND is_on = 1 AND is_pass = 0
+
+2015/11/04 17:01:26----
+update `user` set `status`=? where  mobile_phone = '15976898951'
+
+2015/11/04 17:01:26----
+update `distributor_apply` set `is_pass`=?,`update_time`=? where  id = 2
+
+2015/11/04 18:02:01----
+select A.id as id,A.user_id,A.phone,A.apply_level,A.add_time,B.user_name from distributor_apply as A  left join user as B on A.user_id=B.id where A.is_pass = 1 and A.apply_level = 1
+
+2015/11/04 18:02:01----
+select count(1) from distributor_apply as A  left join user as B on A.user_id=B.id where A.is_pass = 1 and A.apply_level = 1
+
+2015/11/04 18:02:01----
+select A.id as id,A.user_id,A.phone,A.apply_level,A.add_time,B.user_name from distributor_apply as A  left join user as B on A.user_id=B.id where A.is_pass = 1 and A.apply_level = 1 limit 0, 15
+
+2015/11/04 18:02:10----
+select A.id as id,A.user_id,A.phone,A.apply_level,A.add_time,B.user_name from distributor_apply as A  left join user as B on A.user_id=B.id where A.is_pass = 1 and A.apply_level = 2
+
+2015/11/04 18:02:10----
+select count(1) from distributor_apply as A  left join user as B on A.user_id=B.id where A.is_pass = 1 and A.apply_level = 2
+
+2015/11/04 18:02:10----
+select A.id as id,A.user_id,A.phone,A.apply_level,A.add_time,B.user_name from distributor_apply as A  left join user as B on A.user_id=B.id where A.is_pass = 1 and A.apply_level = 2 limit 0, 15
+
+2015/11/04 18:02:34----
+select A.id as id,A.user_id,A.phone,A.apply_level,A.add_time,B.user_name from distributor_apply as A  left join user as B on A.user_id=B.id where A.is_pass = 1 and A.apply_level = 1
+
+2015/11/04 18:02:34----
+select count(1) from distributor_apply as A  left join user as B on A.user_id=B.id where A.is_pass = 1 and A.apply_level = 1
+
+2015/11/04 19:58:08----
+select `id` from `distributor_apply` where  phone = '15976898951' limit 0, 1
+
+2015/11/04 19:58:15----
+select `id` from `distributor_apply` where  phone = '15976898955' limit 0, 1
+
+2015/11/04 19:58:15----
+select `id` from `user` where  mobile_phone = '15976898955' limit 0, 1
+
+2015/11/04 19:58:40----
+select `id` from `distributor_apply` where  phone = '15976898953' limit 0, 1
+
+2015/11/04 19:58:40----
+select `id` from `user` where  mobile_phone = '15976898953' limit 0, 1
+
+2015/11/04 19:58:50----
+select `id` from `distributor_apply` where  phone = '15976898953' limit 0, 1
+
+2015/11/04 19:58:50----
+select `id` from `user` where  mobile_phone = '15976898953' limit 0, 1
+
+2015/11/04 19:58:50----
+insert into `user` (`mobile_phone`,`password`,`status`,`add_time`) values (?,?,?,?)
+
+2015/11/04 19:58:50----
+select `id` from `user` where  mobile_phone = null
+
+2015/11/04 19:58:50----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`area`,`remark`) values (?,?,?,?,?)
+
+2015/11/04 19:59:18----
+select `id` from `distributor_apply` where  phone = '15976898953' limit 0, 1
+
+2015/11/04 19:59:24----
+select `id` from `distributor_apply` where  phone = '15976898958' limit 0, 1
+
+2015/11/04 19:59:24----
+select `id` from `user` where  mobile_phone = '15976898958' limit 0, 1
+
+2015/11/04 19:59:24----
+insert into `user` (`mobile_phone`,`password`,`status`,`add_time`) values (?,?,?,?)
+
+2015/11/04 19:59:24----
+select `id` from `user` where  mobile_phone = '15976898958'
+
+2015/11/04 19:59:24----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`area`,`user_id`,`remark`) values (?,?,?,?,?,?)
+
+2015/11/04 20:01:21----
+select `id` from `distributor_apply` where  phone = '15976898958' limit 0, 1
+
+2015/11/04 20:01:21----
+select `id` from `user` where  mobile_phone = '15976898958' limit 0, 1
+
+2015/11/04 20:01:36----
+select `id` from `distributor_apply` where  phone = '15976898958' limit 0, 1
+
+2015/11/04 20:01:36----
+select `id` from `user` where  mobile_phone = '15976898958' limit 0, 1
+
+2015/11/04 20:01:36----
+insert into `user` (`mobile_phone`,`password`,`status`,`add_time`) values (?,?,?,?)
+
+2015/11/04 20:01:36----
+select `id` from `user` where  mobile_phone = '15976898958'
+
+2015/11/04 20:01:36----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`area`,`is_pass`,`user_id`,`remark`) values (?,?,?,?,?,?,?)
+
+2015/11/04 20:02:11----
+select `id` from `distributor_apply` where  phone = '15976898958' limit 0, 1
+
+2015/11/04 20:02:11----
+select `id` from `user` where  mobile_phone = '15976898958' limit 0, 1
+
+2015/11/04 20:02:11----
+insert into `user` (`mobile_phone`,`password`,`status`,`add_time`) values (?,?,?,?)
+
+2015/11/04 20:02:11----
+select `id` from `user` where  mobile_phone = '15976898958'
+
+2015/11/04 20:02:11----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`area`,`is_pass`,`user_id`,`remark`,`add_time`) values (?,?,?,?,?,?,?,?)
+
+2015/11/04 20:05:21----
+select `id` from `distributor_apply` where  phone = '15976898958' limit 0, 1
+
+2015/11/04 20:05:21----
+select `id` from `user` where  mobile_phone = '15976898958' limit 0, 1
+
+2015/11/04 20:05:21----
+insert into `user` (`mobile_phone`,`password`,`status`,`add_time`) values (?,?,?,?)
+
+2015/11/04 20:05:21----
+select `id` from `user` where  mobile_phone = '15976898958'
+
+2015/11/04 20:05:21----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`area`,`is_pass`,`user_id`,`type`,`remark`,`add_time`) values (?,?,?,?,?,?,?,?,?)
+
+2015/11/04 20:15:25----
+select `id` from `distributor_apply` where  phone = '15976898959' limit 0, 1
+
+2015/11/04 20:15:25----
+select `id` from `user` where  mobile_phone = '15976898959' limit 0, 1
+
+2015/11/04 20:15:25----
+insert into `user` (`mobile_phone`,`password`,`status`,`add_time`) values (?,?,?,?)
+
+2015/11/04 20:15:25----
+select `id` from `user` where  mobile_phone = '15976898959'
+
+2015/11/04 20:15:25----
+insert into `distributor_apply` (`phone`,`shop_name`,`apply_level`,`area`,`is_pass`,`user_id`,`type`,`remark`,`add_time`) values (?,?,?,?,?,?,?,?,?)
+

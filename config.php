@@ -50,11 +50,11 @@ return [
       )
       ), */
 
-    //测试
+    //memcached配置
     'MEMCACHE_CONFIG' => array(
         array(
-            'host' => '',
-            'port' => ''
+            'host' => '127.0.0.1',
+            'port' => '11211'
         ),
     ),
     //redis配置

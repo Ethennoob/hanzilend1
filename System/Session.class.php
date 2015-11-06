@@ -31,7 +31,6 @@ class Session{
 		return self::$mem->get($sid);
 	}
 
-
 	static function write($sid,$data){
 		return self::$mem->set($sid,$data,self::$maxtime);
 	}

@@ -27,8 +27,6 @@ class ArticleController extends BaseClass {
             'cat_id'        =>['egNum',null,true],
             'title'         =>[],
             'content'       =>[],
-            'Pic'           =>[],
-            'url'           =>['url',null,true],
         ];
         $this->V($rule);
 
@@ -36,39 +34,12 @@ class ArticleController extends BaseClass {
         foreach ($rule as $k=>$v){
             $data[$k] = $_POST[$k];
         }
-        
-        //验证上传文件是否是图片
-        $upload=new \System\lib\Upload\Upload();
-        $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
-        $upload->rootPath = '../TempImg/';
-        $upload->savePath  = '/article/';   // 设置附件上传（子）目录
-        //$upload->saveName = explode('.', $saveName)[0];
-        
-        // 开启子目录保存 并以日期（格式为Ymd）为子目录
-        $upload->autoSub = true;
-        $upload->subName = array('date','Ymd');
-        //$upload->savename = $fileName;
-        
-        // 上传文件
-        $info=$upload->uploadOne($_FILES['Pic']);
-        if(!$info){
-            $errorMsg=$upload->getError();
-            $this->R(['errorMsg'=>$errorMsg],'40019');
-        }
+        //图片上传
+        $pictureName = $_FILES['Pic'];
+        $imgarray = $this->H('PictureUpload')->pictureUpload($pictureName,'article',false);
 
-        $fileName=$info['savename'];
-        $temPath='../TempImg/article/thumb/';
-        //360*360缩略图
-        $image=new \System\lib\Image\Image(); 
-        $img3Path=$temPath.str_replace('.', '_thumb360.', $fileName);
-        $image->open($temPath.$fileName);
-        $image->thumb(360,10000)->save($img3Path);
-        $img3=$image->size();
-        $return['img3']['path']=$img3Path;
-        $return['img3']['width']=$img3[0];
-        $return['img3']['heigh']=$img3[1];
-        /*---------------------------------------------*/
-        $data['Pic']          = $info['savename'];
+
+        $data['Pic'] = $imgarray['a1'];
         $data['add_time']     = time();
     
         $article = $this->table('article')->save($data);
@@ -139,11 +110,10 @@ class ArticleController extends BaseClass {
      */
     public function articleOneEdit(){
         $rule = [
+            'id'            =>['egNum',null,true],
             'cat_id'        =>['egNum',null,true],
             'title'         =>[null,null,true],
             'content'       =>[null,null,true],
-            //'Pic'           =>[],
-            'url'           =>['url',null,true],
         ];
         $this->V($rule);
         $id = intval($_POST['id']);
@@ -152,7 +122,7 @@ class ArticleController extends BaseClass {
         if(!$article){
             $this->R('',70009);
         }
-    
+
         unset($rule['id']);
         foreach ($rule as $k=>$v){
             if(isset($_POST[$k])){
@@ -160,7 +130,20 @@ class ArticleController extends BaseClass {
             }
         }
         
-        $data['pic']          =$_FILES['pic']['name'];
+       //图片上传
+        $pictureName = $_FILES['Pic'];
+        $imgarray = $this->H('PictureUpload')->pictureUpload($pictureName,'article',false);
+
+        //删除图片文件
+        $pic_url = $this->table('article')->where(['id'=>$id,'is_on'=>1])->get(['Pic'],true);
+        foreach ($pic_url as $key => $v) {
+             $delete = unlink("../html".$v);
+         }
+        if (!$delete) {
+            $this->R('',40020);
+        }
+        /*---------------------------------------------*/
+        $data['Pic'] = $imgarray['a1'];
         $data['update_time']  = time();
     
         $article = $this->table('article')->where(['id'=>$id])->update($data);
@@ -205,7 +188,15 @@ class ArticleController extends BaseClass {
         if(!$article){
             $this->R('',70009);
         }
-    
+        //删除图片文件
+        $pic_url = $this->table('article')->where(['id'=>$id,'is_on'=>1])->get(['Pic'],true);
+        foreach ($pic_url as $key => $v) {
+             $delete = unlink("../html".$v);
+         }
+        if (!$delete) {
+            $this->R('',40020);
+        }
+
         $article = $this->table('article')->where(['id'=>$id])->delete();
         if(!$article){
             $this->R('',40001);

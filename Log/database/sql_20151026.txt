@@ -61,3 +61,15 @@ select `id`,`pay_name`,`pay_desc`,`pay_mode`,`pay_icon`,`add_time`,`update_time`
 2015/10/26 14:59:15----
 select `id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 59 limit 0, 1
 
+2015/10/26 18:21:23----
+insert into `user` (`mobile_phone`,`password`,`add_time`) values (?,?,?)
+
+2015/10/26 20:00:42----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 59 limit 0, 1
+
+2015/10/26 20:01:18----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 59 limit 0, 1
+
+2015/10/26 20:02:47----
+select `id`,`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`,`is_on` from `article` where  is_on = 1 AND id = 59 limit 0, 1
+

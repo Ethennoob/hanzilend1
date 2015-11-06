@@ -38,14 +38,16 @@ class IndexController extends CommonController {
     					$fileName2=str_replace('.jpg', '_150.jpg', $fileName);
     					$image->thumb(200,10000)->save($tempPath.$fileName2);
     					$status=1;
-
+    					
     					//上传到图片服务器
     					$upload=httpPost($this->config('IMG_UPLOAD'), ['file'=>new \CURLFile(realpath($tempPath.$fileName)),'savePath'=>$path,'saveName'=>basename($tempPath.$fileName)],true);
     					$upload=json_decode($upload,true);
     					if (!($upload&&$upload['result']==true)){
     					    $uploadStatus=false;
     					}
-
+    					
+    					
+    					
     					//上传压缩图
     					$upload2=httpPost($this->config('IMG_UPLOAD'), ['file'=>new \CURLFile(realpath($tempPath.$fileName2)),'savePath'=>$path,'saveName'=>basename($tempPath.$fileName2)],true);
     					$upload2=json_decode($upload,true);

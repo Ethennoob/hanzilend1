@@ -217,7 +217,7 @@ abstract class BaseClass {
      * @return false|array 返回数据列表，失败返回false
      */
     protected function getOnePageData(&$pageInfo, &$dataClass, $listFunc, $lengFunc = null, array $params = null, $isMulti = false) {
-    	$pageInfo->psize = isset($_REQUEST["psize"]) ? $_REQUEST["psize"] : 15;
+    	$pageInfo->psize = isset($_REQUEST["psize"]) ? $_REQUEST["10"] : 15;
     	$rt = false;
     	if (null == $lengFunc)
     		$lengFunc = $listFunc . "Length";

@@ -1,0 +1,12 @@
+2015/10/30 15:12:15----
+insert into `article` (`cat_id`,`title`,`content`,`Pic`,`add_time`) values (?,?,?,?,?)
+
+2015/10/30 15:19:58----
+insert into `payment_method` (`pay_name`,`pay_desc`,`pay_mode`,`pay_icon`,`add_time`) values (?,?,?,?,?)
+
+2015/10/30 15:21:37----
+insert into `payment_method` (`pay_name`,`pay_desc`,`pay_mode`,`pay_icon`,`add_time`) values (?,?,?,?,?)
+
+2015/10/30 15:24:12----
+insert into `payment_method` (`pay_name`,`pay_desc`,`pay_mode`,`pay_icon`,`add_time`) values (?,?,?,?,?)
+
