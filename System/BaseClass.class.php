@@ -2,7 +2,7 @@
 namespace System;
 
 abstract class BaseClass {
-	private $memcachedCache=null;   //缓存实例
+	private $cache=null;   //缓存实例
 	
     private $pageInfo;
     private $tableMap = array();
@@ -14,16 +14,17 @@ abstract class BaseClass {
     static $errMap = [];
     protected $error;
 
-    public function __get($name) {
-        return $this->$name;
-    }
-
-    public function table($class, $db = "DB_MASTER") {
-        if (!array_key_exists($class.'-'.$db, $this->tableMap)) {
-            $this->tableMap[$class.'-'.$db] = \System\Entrance::getClass($class, $db);
-        }
-        return $this->tableMap[$class.'-'.$db];
-    }
+    public function table($class=null, $db = "DB_MASTER") {
+    	if (!array_key_exists($class.'-'.$db, $this->tableMap)) {
+    		if ($class!==null){
+    			$this->tableMap[$class.'-'.$db] = \System\Router::getClass($class, $db);
+    		}
+    		else{
+    			$this->tableMap[$class.'-'.$db] = new \System\database\InitTable($db);
+    		}
+    	}	
+    	return $this->tableMap[$class.'-'.$db];
+ 	}
 
     /**
      * 实例化help层
@@ -32,7 +33,7 @@ abstract class BaseClass {
      */
     public function H($class) {
     	$class='\\AppMain\\helper\\'.$class. 'Helper';
-        return \System\Entrance::getClass($class);
+        return \System\Router::getClass($class);
     }
     
     /**
@@ -40,14 +41,31 @@ abstract class BaseClass {
      * @param str $type  缓存类型
      */
     public function S($type='memcached'){
-    	if ($type=='memcached'){
-    		if (empty($this->memcachedCache)){
-    			return new MyMemCached();
-    		}
-    		else{
-    			return $this->memcachedCache;
-    		}
-    	}
+        switch ($type){
+            case 'memcached' :   //memcache
+                if (empty($this->cache['memcachedCache'])){
+                    $mem=new MyMemCached();
+                    $this->cache['memcachedCache']=$mem;
+                    return $mem;
+                }
+                else{
+                    return $this->cache['memcachedCache'];
+                }
+                break;
+            case 'local' :   //本地文件缓存
+                if (empty($this->cache['local'])){
+                    $mem=new MyLocalCache();
+                    $this->cache['local']=$mem;
+                    return $mem;
+                }
+                else{
+                    return $this->cache['local'];
+                }
+                break;
+            default:
+                throw new \Exception('错误的缓存！');
+                break;
+        }
     }
     
     
@@ -87,6 +105,26 @@ abstract class BaseClass {
      */
     public function P(){
     	return new PageInfo();
+    }
+    
+    /**
+     * 载入系统类
+     * @param 文件名(相对于文件夹vendor的php文件)
+     * @example $this->Lib('Mail.PHPMailer');
+     */
+    public function lib($class){
+        $class = str_replace(array('.', '#'), array('/', '.'), $class);
+        require_once  __ROOT__.'/System/lib/'.$class.'.class.php';
+    }
+    
+    /**
+     * 载入第三方类
+     * @param 文件名(相对于文件夹vendor的php文件)
+     * @example $this->vendor('Excel.PHPExcel');
+     */
+    public function vendor($class){
+    	$class = str_replace(array('.', '#'), array('/', '.'), $class);
+    	require_once  __ROOT__.'/System/vendor/'.$class.'.php';
     }
     
     /**
@@ -172,13 +210,17 @@ abstract class BaseClass {
      * @param unknown $msg
      */
     public function logErr($errFileName, $msg) {
-        file_put_contents(__ROOT__ . "/cache/" . $errFileName, date("H/m/d H:i:s", time()) . '----' . $msg . " \n ", FILE_APPEND);
+        file_put_contents(__ROOT__ . "/Cache/" . $errFileName, date("H/m/d H:i:s", time()) . '----' . $msg .PHP_EOL, FILE_APPEND);
     }
 
+    
     /**
      * 返回给前端页面json 
+     * @param string|array $data
+     * @param string $errcode
+     * @param bool $helper   是否helper调用，如果true,则不返回json
      */
-    protected function R($data = "", $errcode = '') {
+    protected function R($data = "", $errcode = '',$helper=false) {
         
         
         if (!empty($errcode))
@@ -203,7 +245,13 @@ abstract class BaseClass {
             }
         }
         
-        ajaxReturn(array("errcode" => $this->errcode, "errmsg" => $errmsg, 'data' => $data, 'isImportant' => $isImportant), "JSON", JSON_UNESCAPED_UNICODE);
+        if (!$helper){
+        	ajaxReturn(array("errcode" => $this->errcode, "errmsg" => $errmsg, 'data' => $data, 'isImportant' => $isImportant), "JSON", JSON_UNESCAPED_UNICODE);
+        }
+        else{
+        	return array("errcode" => $this->errcode, "errmsg" => $errmsg);
+        }
+    
     }
     
     /**
@@ -217,7 +265,7 @@ abstract class BaseClass {
      * @return false|array 返回数据列表，失败返回false
      */
     protected function getOnePageData(&$pageInfo, &$dataClass, $listFunc, $lengFunc = null, array $params = null, $isMulti = false) {
-    	$pageInfo->psize = isset($_REQUEST["psize"]) ? $_REQUEST["10"] : 15;
+    	$pageInfo->psize = isset($_REQUEST["psize"]) ? $_REQUEST["psize"] : 15;
     	$rt = false;
     	if (null == $lengFunc)
     		$lengFunc = $listFunc . "Length";

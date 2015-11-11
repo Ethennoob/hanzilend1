@@ -217,7 +217,7 @@ abstract class BaseTable {
 //                 $val  =  '%'.$val.'%';
 //                 $whereStr .= $key.' LIKE '.$this->parseValue($val);
 //             }else { */
-            $whereStr .= $key . ' = ' . $this->parseValue($val);
+            $whereStr .= '`'.$key.'` = ' . $this->parseValue($val);
             //}
         }
         return $whereStr;
@@ -752,6 +752,28 @@ abstract class BaseTable {
         
         return $rt;
     }
+    
+    public function query($sql){
+    	$result=mysqli_query($this->conn,$sql);
+    	
+    	if ($result) {
+    		while (true) {
+    			$row = mysqli_fetch_assoc($result);
+    			if ($row) {
+    				$r = array();
+    				foreach ($row as $k => $v) {
+    					$r[$k] = $v;
+    				}
+    				$array[] = $r;
+    			} else {
+    				break;
+    			}
+    		}
+    	} else {
+    		self::logError(mysqli_error($this->conn));
+    	}
+    	return $array;
+    }
 
     /**
      * 通过ID获取一行数据
@@ -917,7 +939,11 @@ abstract class BaseTable {
     
     private function degbugLog(){
     	if ($this->isDebug){
-    	    sqlDebugLog($this->lastSql,$this->error);   	    
+    	    sqlDebugLog($this->lastSql,$this->error);   
+    	    
+    	    if (!empty($this->error)){
+    	        throw new \Exception('查询语句：'.$this->lastSql.'     错误提示：'.$this->error);
+    	    }
     	}
     }
 

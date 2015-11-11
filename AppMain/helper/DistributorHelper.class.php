@@ -21,6 +21,40 @@ class DistributorHelper extends BaseHelper {
         * @param string $sqlFunction
         * @return Ambigous <NULL, unknown, multitype:, \System\database\this>
          */
+        public function  getDistributorL($whereStmt, $bindParams = null, $bindTypes = null, $getOne = false, $order = null, $sqlFunction = null){
+            $this->distributorLLinkedTable($fieldsName, $multiSqlStmt, $whereStmt, $bindParams, $bindTypes, $order, $sqlFunction);
+            return $this->getMulti($multiSqlStmt, $fieldsName, $getOne);
+        }
+        public function getDistributorLListLength($whereStmt, $bindParams = null, $bindTypes = null, $getOne = true, $order = null) {
+            $this->distributorLLinkedTable($fieldsName, $multiSqlStmt, $whereStmt, $bindParams, $bindTypes, $order);
+            return $this->getMultiLength($multiSqlStmt, $fieldsName, $getOne);
+        }
+        private function distributorLLinkedTable(&$fieldsName, &$multiSqlStmt, $whereStmt, $bindParams = null, $bindTypes = null, $orderBy = null, $sqlFunction = null) {            
+            $fieldsName = array(
+                    'distributor_apply as A' => 'id as id,user_id,phone,apply_level,add_time',
+                    'user as B' => 'user_name',
+
+            );
+            $multiSqlStmt = array(
+                'joinType' => array('left join'),
+                'joinOn' => array('A.user_id=B.id'),
+                'whereStmt' => $whereStmt,
+                'bindParams' => $bindParams,
+                'bindTypes' => $bindTypes,
+                'orderBy' => $orderBy,
+                'sqlFunction' => $sqlFunction
+            );
+        }
+        /*
+        *获取一条分销商信息
+        * @param unknown $whereStmt
+        * @param string $bindParams
+        * @param string $bindTypes
+        * @param string $getOne
+        * @param string $order
+        * @param string $sqlFunction
+        * @return Ambigous <NULL, unknown, multitype:, \System\database\this>
+         */
         public function  getDistributor($whereStmt, $bindParams = null, $bindTypes = null, $getOne = false, $order = null, $sqlFunction = null){
             $this->distributorLinkedTable($fieldsName, $multiSqlStmt, $whereStmt, $bindParams, $bindTypes, $order, $sqlFunction);
             return $this->getMulti($multiSqlStmt, $fieldsName, $getOne);
@@ -31,8 +65,8 @@ class DistributorHelper extends BaseHelper {
         }
         private function distributorLinkedTable(&$fieldsName, &$multiSqlStmt, $whereStmt, $bindParams = null, $bindTypes = null, $orderBy = null, $sqlFunction = null) {            
             $fieldsName = array(
-                    'distributor_apply as A' => 'id as id,user_id,phone,apply_level,add_time',
-                    'user as B' => 'user_name',
+                    'distributor_apply as A' => 'id as id,user_id,phone,name,add_time',
+                    'user as B' => 'user_img,openid_line,user_money,pay_points,commission',
 
             );
             $multiSqlStmt = array(

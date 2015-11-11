@@ -1,0 +1,192 @@
+2015/11/09 16:37:12----
+select `user_id` from `distributor_apply` where  id = 87 AND is_on = 1 AND is_pass = 1 limit 0, 1
+
+2015/11/09 16:37:12----
+update `user` set `is_froze`=? where  id = 70
+
+2015/11/09 16:37:23----
+select `user_id` from `distributor_apply` where  id = 88 AND is_on = 1 AND is_pass = 1 limit 0, 1
+
+2015/11/09 19:54:33----
+select count(*) from `user` where  is_on = 1
+
+2015/11/09 19:54:33----
+select `id`,`user_name`,`mobile_phone`,`email`,`openid_line`,`password`,`sex`,`birthday`,`user_money`,`frozen_money`,`commission`,`pay_points`,`rank_level`,`user_address_id`,`last_login`,`last_ip`,`nickname`,`qq`,`office_phone`,`status`,`user_refere`,`mall_own_private`,`getcash_password`,`city`,`user_img`,`order_money`,`is_follow`,`is_froze`,`add_time`,`update_time`,`is_on` from `user` where  is_on = 1 order by add_time desc limit 0, 15
+
+2015/11/09 19:54:58----
+select A.id as id,A.user_id,A.phone,A.name,A.add_time,B.user_img,B.openid_line,B.user_money,B.pay_points,B.commission from distributor_apply as A  left join user as B on A.user_id=B.id where A.id = 87
+
+2015/11/09 20:01:46----
+select `user_id` from `distributor_apply` where  id = 87 AND is_on = 1 AND is_pass = 1 limit 0, 1
+
+2015/11/09 20:01:46----
+update `user` set `is_froze`=? where  id = 70
+
+2015/11/09 20:02:10----
+select `user_id` from `distributor_apply` where  id = 87 AND is_on = 1 AND is_pass = 1 limit 0, 1
+
+2015/11/09 20:02:11----
+update `user` set `is_froze`=? where  id = 70
+
+2015/11/09 20:02:11----
+select `user_id` from `distributor_apply` where  id = 87 AND is_on = 1 AND is_pass = 1 limit 0, 1
+
+2015/11/09 20:02:11----
+update `user` set `is_froze`=? where  id = 70
+
+2015/11/09 20:05:36----
+select A.id as user_id,B.income _commission,B.add_time,B.bill_id from distributor_apply as A  left join distributor_cission as B on A.user_id=B.user_id where A.is_on = 1 and A.is_pass = 1 and A.id = 87
+Table 'yii2basic.distributor_cission' doesn't exist
+2015/11/09 20:05:42----
+select A.id as user_id,B.income _commission,B.add_time,B.bill_id from distributor_apply as A  left join distributor_cission as B on A.user_id=B.user_id where A.is_on = 1 and A.is_pass = 1 and A.id = 87
+Table 'yii2basic.distributor_cission' doesn't exist
+2015/11/09 20:06:46----
+select A.id as user_id,B.income _commission,B.add_time,B.bill_id from distributor_apply as A  left join distributor_cission as B on A.user_id=B.user_id where A.is_on = 1 and A.is_pass = 1 and A.id = 87
+Table 'yii2basic.distributor_cission' doesn't exist
+2015/11/09 20:06:46----
+select count(1) from distributor_apply as A  left join distributor_cission as B on A.user_id=B.user_id where A.is_on = 1 and A.is_pass = 1 and A.id = 87
+Table 'yii2basic.distributor_cission' doesn't exist
+2015/11/09 20:07:11----
+select A.id as user_id,B.income _commission,B.add_time,B.bill_id from distributor_apply as A  left join distributor_cission as B on A.user_id=B.user_id where A.is_on = 1 and A.is_pass = 1 and A.user_id = 87
+Table 'yii2basic.distributor_cission' doesn't exist
+2015/11/09 20:07:11----
+select count(1) from distributor_apply as A  left join distributor_cission as B on A.user_id=B.user_id where A.is_on = 1 and A.is_pass = 1 and A.user_id = 87
+Table 'yii2basic.distributor_cission' doesn't exist
+2015/11/09 20:07:12----
+select A.id as user_id,B.income _commission,B.add_time,B.bill_id from distributor_apply as A  left join distributor_cission as B on A.user_id=B.user_id where A.is_on = 1 and A.is_pass = 1 and A.user_id = 87
+Table 'yii2basic.distributor_cission' doesn't exist
+2015/11/09 20:07:12----
+select count(1) from distributor_apply as A  left join distributor_cission as B on A.user_id=B.user_id where A.is_on = 1 and A.is_pass = 1 and A.user_id = 87
+Table 'yii2basic.distributor_cission' doesn't exist
+2015/11/09 20:07:30----
+select A.user_id as user_id,B.income _commission,B.add_time,B.bill_id from distributor_apply as A  left join distributor_cission as B on A.user_id=B.user_id where A.is_on = 1 and A.is_pass = 1 and A.user_id = 87
+Table 'yii2basic.distributor_cission' doesn't exist
+2015/11/09 20:07:30----
+select count(1) from distributor_apply as A  left join distributor_cission as B on A.user_id=B.user_id where A.is_on = 1 and A.is_pass = 1 and A.user_id = 87
+Table 'yii2basic.distributor_cission' doesn't exist
+2015/11/09 20:08:23----
+select A.user_id as user_id,B.income _commission,B.add_time,B.bill_id from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where A.is_on = 1 and A.is_pass = 1 and A.user_id = 87
+Table 'yii2basic.distribution_cission' doesn't exist
+2015/11/09 20:08:23----
+select count(1) from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where A.is_on = 1 and A.is_pass = 1 and A.user_id = 87
+Table 'yii2basic.distribution_cission' doesn't exist
+2015/11/09 20:08:32----
+select A.id as user_id,B.income _commission,B.add_time,B.bill_id from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where A.is_on = 1 and A.is_pass = 1 and A.user_id = 87
+Table 'yii2basic.distribution_cission' doesn't exist
+2015/11/09 20:08:32----
+select count(1) from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where A.is_on = 1 and A.is_pass = 1 and A.user_id = 87
+Table 'yii2basic.distribution_cission' doesn't exist
+2015/11/09 20:09:16----
+select A.id as user_id,B.income _commission,B.add_time,B.bill_id from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where A.is_on = 1 and A.is_pass = 1 and A.user_id = 87
+Unknown column 'B.income' in 'field list'
+2015/11/09 20:09:16----
+select count(1) from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where A.is_on = 1 and A.is_pass = 1 and A.user_id = 87
+Unknown column 'B.income' in 'field list'
+2015/11/09 20:09:30----
+select A.id as user_id,B.income_commission,B.add_time,B.bill_id from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where A.is_on = 1 and A.is_pass = 1 and A.user_id = 87
+Unknown column 'B.income_commission' in 'field list'
+2015/11/09 20:09:30----
+select count(1) from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where A.is_on = 1 and A.is_pass = 1 and A.user_id = 87
+Unknown column 'B.income_commission' in 'field list'
+2015/11/09 20:10:05----
+select A.id as user_id,B.income_commission,B.add_time,B.bill_id from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where A.is_on = 1 and A.is_pass = 1 and A.user_id = 87
+
+2015/11/09 20:10:06----
+select count(1) from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where A.is_on = 1 and A.is_pass = 1 and A.user_id = 87
+
+2015/11/09 20:10:54----
+select A.id as user_id,B.income_commission,B.add_time,B.bill_id from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.user_id = 87
+
+2015/11/09 20:10:54----
+select count(1) from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.user_id = 87
+
+2015/11/09 20:24:21----
+select A.id as user_id,B.income_commission,B.add_time,B.bill_id from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.user_id = 87
+
+2015/11/09 20:24:21----
+select count(1) from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.user_id = 87
+
+2015/11/09 20:28:39----
+select A.id as id,A.user_id,B.user_id as user_id,B.income_commission,B.add_time,B.bill_id from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.user_id = 87
+
+2015/11/09 20:28:39----
+select count(1) from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.user_id = 87
+
+2015/11/09 20:30:36----
+select A.id as id,A.user_id,B.id as user_id,B.income_commission,B.add_time,B.bill_id from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.user_id = 87
+
+2015/11/09 20:30:36----
+select count(1) from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.user_id = 87
+
+2015/11/09 20:37:12----
+select A.id as id,A.user_id,B.id as user_id,B.income_commission,B.add_time,B.bill_id from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.id = 87
+
+2015/11/09 20:37:12----
+select count(1) from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.id = 87
+
+2015/11/09 20:37:12----
+select A.id as id,A.user_id,B.id as user_id,B.income_commission,B.add_time,B.bill_id from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.id = 87 limit 0, 15
+
+2015/11/09 20:39:27----
+select A.id as id,A.user_id,B.id as user_id,B.income_commission,B.add_time,B.bill_id from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.id = 87
+
+2015/11/09 20:39:27----
+select count(1) from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.id = 87
+
+2015/11/09 20:39:27----
+select A.id as id,A.user_id,B.id as user_id,B.income_commission,B.add_time,B.bill_id from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.id = 87 limit 0, 15
+
+2015/11/09 20:39:29----
+select A.id as id,A.user_id,B.id as user_id,B.income_commission,B.add_time,B.bill_id from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.id = 87
+
+2015/11/09 20:39:29----
+select count(1) from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.id = 87
+
+2015/11/09 20:39:29----
+select A.id as id,A.user_id,B.id as user_id,B.income_commission,B.add_time,B.bill_id from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.id = 87 limit 0, 15
+
+2015/11/09 20:47:55----
+select A.id as id,A.user_id,B.id as user_id,B.income_commission,B.add_time,B.bill_id from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.id = 87
+
+2015/11/09 20:47:55----
+select count(1) from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.id = 87
+
+2015/11/09 20:47:55----
+select A.id as id,A.user_id,B.id as user_id,B.income_commission,B.add_time,B.bill_id from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.id = 87 limit 0, 15
+
+2015/11/09 20:48:12----
+select A.id as id,A.user_id,B.id as income_commission,B.add_time,B.bill_id from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.id = 87
+
+2015/11/09 20:48:12----
+select count(1) from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.id = 87
+
+2015/11/09 20:48:12----
+select A.id as id,A.user_id,B.id as income_commission,B.add_time,B.bill_id from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.id = 87 limit 0, 15
+
+2015/11/09 21:23:18----
+select A.id as id,A.user_id,B.id as income_commission,B.add_time,B.bill_id,C.withdrawals_money from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id left join withdrawals_apply as C on A.user_id=C.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.id = 87
+
+2015/11/09 21:23:18----
+select count(1) from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id left join withdrawals_apply as C on A.user_id=C.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.id = 87
+
+2015/11/09 21:23:18----
+select A.id as id,A.user_id,B.id as income_commission,B.add_time,B.bill_id,C.withdrawals_money from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id left join withdrawals_apply as C on A.user_id=C.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.id = 87 limit 0, 15
+
+2015/11/09 21:23:32----
+select A.id as id,A.user_id,B.id as income_commission,B.add_time,B.bill_id,C.withdrawals_money from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id left join withdrawals_apply as C on A.user_id=C.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.id = 87
+
+2015/11/09 21:23:32----
+select count(1) from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id left join withdrawals_apply as C on A.user_id=C.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.id = 87
+
+2015/11/09 21:23:32----
+select A.id as id,A.user_id,B.id as income_commission,B.add_time,B.bill_id,C.withdrawals_money from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id left join withdrawals_apply as C on A.user_id=C.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.id = 87 limit 0, 15
+
+2015/11/09 21:37:59----
+select A.id as id,A.user_id,B.id as income_commission,B.add_time,B.bill_id,C.withdrawals_money from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id left join withdrawals_apply as C on A.user_id=C.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.id = 87
+
+2015/11/09 21:37:59----
+select count(1) from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id left join withdrawals_apply as C on A.user_id=C.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.id = 87
+
+2015/11/09 21:37:59----
+select A.id as id,A.user_id,B.id as income_commission,B.add_time,B.bill_id,C.withdrawals_money from distributor_apply as A  left join distribution_cission as B on A.user_id=B.user_id left join withdrawals_apply as C on A.user_id=C.user_id where B.is_on = 1 and A.is_on = 1 and A.is_pass = 1 and A.id = 87 limit 0, 15
+

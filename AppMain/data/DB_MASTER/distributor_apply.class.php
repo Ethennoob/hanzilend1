@@ -8,7 +8,8 @@ protected function initTable(){ $this->fields=[
 'name'=> ['type' => 's', 'value' => null],
 'shop_name'=> ['type' => 's', 'value' => null],
 'apply_level'=> ['type' => 'i', 'value' => null],
-'apply_money'=> ['type' => 'i', 'value' => null],
+'money'=> ['type' => 'i', 'value' => null],
+'city'=> ['type' => 's', 'value' => null],
 'area'=> ['type' => 's', 'value' => null],
 'is_pass'=> ['type' => 'i', 'value' => null],
 'parent_id'=> ['type' => 'i', 'value' => null],
@@ -18,6 +19,7 @@ protected function initTable(){ $this->fields=[
 'add_time'=> ['type' => 'i', 'value' => null],
 'update_time'=> ['type' => 'i', 'value' => null],
 'is_on'=> ['type' => 'i', 'value' => null],
+'typee'=> ['type' => 'i', 'value' => null],
 ];
 $this->tableName = 'distributor_apply';
 $this->AIField = 'id';

@@ -1,0 +1,81 @@
+2015/11/11 10:31:01----
+select A.id as id,A.user_id,A.phone,A.name,A.add_time,B.user_img,B.openid_line,B.user_money,B.pay_points,B.commission from distributor_apply as A  left join user as B on A.user_id=B.id where A.id = 87
+
+2015/11/11 10:59:00----
+select `id` from `withdrawals_apply` where  `id` = 3 AND `is_on` = 1 limit 0, 1
+
+2015/11/11 10:59:00----
+update `distributor_apply` set `update_time`=? where  `id` = 3
+
+2015/11/11 11:00:08----
+select `id` from `withdrawals_apply` where  `id` = 3 AND `is_on` = 1 limit 0, 1
+
+2015/11/11 11:00:08----
+update `withdrawals_apply` set `confirm_time`=?,`update_time`=? where  `id` = 3
+
+2015/11/11 11:00:33----
+select count(*) from `withdrawals_apply` where  is_on = 1 and concat(alipay,withdrawals_name,money) like "%马莲莲%"
+
+2015/11/11 11:00:33----
+select `id`,`user_id`,`uid`,`withdrawals_name`,`openid`,`alipay`,`money`,`add_time`,`confirm_time`,`update_time`,`is_on` from `withdrawals_apply` where  is_on = 1 and concat(alipay,withdrawals_name,money) like "%马莲莲%" order by add_time asc
+
+2015/11/11 11:01:13----
+select count(*) from `withdrawals_apply` where  is_on = 1 and concat(alipay,withdrawals_name,money) like "%马莲莲%"
+
+2015/11/11 11:01:13----
+select `id`,`user_id`,`uid`,`withdrawals_name`,`openid`,`alipay`,`money`,`add_time`,`confirm_time`,`update_time`,`is_on` from `withdrawals_apply` where  is_on = 1 and concat(alipay,withdrawals_name,money) like "%马莲莲%" order by add_time asc
+
+2015/11/11 11:01:16----
+select count(*) from `withdrawals_apply` where  is_on = 1 and concat(alipay,withdrawals_name,money) like "%马莲%"
+
+2015/11/11 11:01:16----
+select `id`,`user_id`,`uid`,`withdrawals_name`,`openid`,`alipay`,`money`,`add_time`,`confirm_time`,`update_time`,`is_on` from `withdrawals_apply` where  is_on = 1 and concat(alipay,withdrawals_name,money) like "%马莲%" order by add_time asc
+
+2015/11/11 11:02:20----
+select count(*) from `withdrawals_apply` where  is_on = 1 and concat(alipay,withdrawals_name,money) like "%马莲%"
+
+2015/11/11 11:02:20----
+select `id`,`user_id`,`uid`,`withdrawals_name`,`openid`,`alipay`,`money`,`add_time`,`confirm_time`,`update_time`,`is_on` from `withdrawals_apply` where  is_on = 1 and concat(alipay,withdrawals_name,money) like "%马莲%" order by add_time asc
+
+2015/11/11 11:03:25----
+select count(*) from `withdrawals_apply` where  is_on = 1 and concat(alipay,withdrawals_name,money) like "%马莲%"
+
+2015/11/11 11:03:25----
+select `id`,`user_id`,`uid`,`withdrawals_name`,`openid`,`alipay`,`money`,`add_time`,`confirm_time`,`update_time`,`is_on` from `withdrawals_apply` where  is_on = 1 and concat(alipay,withdrawals_name,money) like "%马莲%" order by add_time asc
+
+2015/11/11 11:04:53----
+select count(*) from `withdrawals_apply` where  is_on = 1 and concat(alipay,withdrawals_name,money) like "%马莲%"
+
+2015/11/11 11:04:53----
+select `id`,`withdraw_name`,`user_id`,`alipay`,`openid`,`money`,`add_time`,`confirm_time` from `withdrawals_apply` where  is_on = 1 and concat(alipay,withdrawals_name,money) like "%马莲%" order by add_time asc
+Unknown column 'withdraw_name' in 'field list'
+2015/11/11 11:05:14----
+select count(*) from `withdrawals_apply` where  is_on = 1 and concat(alipay,withdrawals_name,money) like "%马莲%"
+
+2015/11/11 11:05:14----
+select `id`,`withdraw_name`,`user_id`,`alipay`,`openid`,`money`,`add_time`,`confirm_time` from `withdrawals_apply` where  is_on = 1 and concat(alipay,withdrawals_name,money) like "%马莲%" order by add_time asc limit 0, 15
+Unknown column 'withdraw_name' in 'field list'
+2015/11/11 11:06:06----
+select count(*) from `withdrawals_apply` where  is_on = 1 and concat(alipay,withdrawals_name,money) like "%马莲%"
+
+2015/11/11 11:06:06----
+select `id`,`user_id`,`withdraw_name`,`alipay`,`openid`,`money`,`add_time`,`confirm_time` from `withdrawals_apply` where  is_on = 1 and concat(alipay,withdrawals_name,money) like "%马莲%" order by add_time asc limit 0, 15
+Unknown column 'withdraw_name' in 'field list'
+2015/11/11 11:06:23----
+select count(*) from `withdrawals_apply` where  is_on = 1 and concat(alipay,withdrawals_name,money) like "%马莲%"
+
+2015/11/11 11:06:23----
+select `id`,`user_id`,`withdraw_name`,`alipay`,`openid`,`money`,`add_time`,`confirm_time` from `withdrawals_apply` where  is_on = 1 and concat(alipay,withdrawals_name,money) like "%马莲%" order by add_time asc
+Unknown column 'withdraw_name' in 'field list'
+2015/11/11 11:06:54----
+select count(*) from `withdrawals_apply` where  is_on = 1 and concat(alipay,withdrawals_name,money) like "%马莲%"
+
+2015/11/11 11:06:54----
+select `id`,`user_id`,`withdraw_name`,`alipay`,`openid`,`money`,`add_time`,`confirm_time` from `withdrawals_apply` where  is_on = 1 and concat(alipay,withdrawals_name,money) like "%马莲%" order by add_time asc
+Unknown column 'withdraw_name' in 'field list'
+2015/11/11 11:07:26----
+select count(*) from `withdrawals_apply` where  is_on = 1 and concat(alipay,withdrawals_name,money) like "%马莲%"
+
+2015/11/11 11:07:26----
+select `id`,`user_id`,`withdrawals_name`,`alipay`,`openid`,`money`,`add_time`,`confirm_time` from `withdrawals_apply` where  is_on = 1 and concat(alipay,withdrawals_name,money) like "%马莲%" order by add_time asc
+

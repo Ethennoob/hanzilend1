@@ -36,12 +36,38 @@ class UserController extends Baseclass {
     
         $this->R();
     }
+    /**
+     * 会员设置提现/支付密码
+     */
+    public function getCashPassword(){
+        //-----------字段验证-----------
+        $rule = [
+            'id'             =>['egNum'],
+            'getcash_password'       =>[],
+        ];
+        $this->V($rule);
+    
+        foreach ($rule as $k=>$v){
+            $data[$k] = $_POST[$k];
+        }
+        $data['getcash_password']     =md5($data['getcash_password']);
+        $data['update_time']  = time();
+        $data['add_time']     = time();
+    
+        $user = $this->table('user')->where(['id'=>$data['id']])->update($data);
+        if(!$user){
+            $this->R('',40001);
+        }
+    
+        $this->R();
+    }
     /*
     添加会员个人信息
      */
     public function userInfoAdd(){
-    	//-----------字段验证-----------
+        //-----------字段验证-----------
         $rule = [
+            'id'              =>['egNum'],//已有会员id
             'user_name'       =>[],
             'email'           =>['email'],
             'sex'             =>[],
@@ -65,7 +91,7 @@ class UserController extends Baseclass {
         $data['user_img'] = $imgarray['a1'];
         $data['add_time']     = time();
     
-        $user = $this->table('User')->save($data);
+        $user = $this->table('User')->where(['id'=>$data['id']])->update($data);
         if(!$user){
             $this->R('',40001);
         }
@@ -235,6 +261,7 @@ class UserController extends Baseclass {
      */
     public function userOneEdit(){
        $rule = [
+            'id'              =>['egNum'],
             'user_name'       =>[],
             'email'           =>['email'],
             'sex'             =>[],
@@ -357,7 +384,7 @@ class UserController extends Baseclass {
             $data[$k] = $_POST[$k];
         }
         $a = $_POST['search'];
-        $search = 'is_on = "1" and concat(user_name,add_time,mobile_phone,city) like "%'.$a.'%"';
+        $search = 'is_on = "1" and concat(mobile_phone,user_name,add_time,city) like "%'.$a.'%"';
         $pageInfo = $this->P();
 
         $file = ['id','user_name','status','user_img','mobile_phone','add_time','mall_own_private'];
