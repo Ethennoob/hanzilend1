@@ -1,9 +1,0 @@
-2015/10/24 15:43:36----
-insert into `article` (`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`) values (?,?,?,?,?,?,?)
-
-2015/10/24 15:54:48----
-insert into `article` (`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`) values (?,?,?,?,?,?,?)
-
-2015/10/24 15:58:01----
-insert into `article` (`cat_id`,`title`,`content`,`Pic`,`Url`,`add_time`,`update_time`) values (?,?,?,?,?,?,?)
-

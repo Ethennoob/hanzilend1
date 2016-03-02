@@ -294,7 +294,7 @@ class Upload {
         }
 
         /* 检查文件Mime类型 */
-        //:FLASH上传的文件获取到的mime类型都为application/octet-stream
+        //TODO:FLASH上传的文件获取到的mime类型都为application/octet-stream
         if (!$this->checkMime($file['type'])) {
             $this->error = '上传文件MIME类型不允许！';
             return false;

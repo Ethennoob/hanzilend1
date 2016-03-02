@@ -22,8 +22,12 @@ class Entrance {
         header("PowerBy: Han-zi,Liang");
         header("F-Version: 1.0");   //框架版本
         
+        //载入防xss和sql注入文件
+        require_once 'waf.php';
+        
         //载入系统函数
         require_once 'function.php';
+        
         startSession();
         
         //启动程序
@@ -44,12 +48,19 @@ class Entrance {
     	isset($_GET['m'])?self::$module=trim($_GET['m']):self::$module;
     	isset($_GET['c'])?self::$class = trim($_GET['c']):self::$class;
     	isset($_GET['f'])?self::$function = trim($_GET['f']):self::$function;
-    	
+
+		//扩展名分析
+		if(!empty(self::$function)){
+			if(strrpos(self::$function,'.htmlx') !== false){
+				self::$function=str_replace('.htmlx','',self::$function);
+			}
+		}
+
     	
     	//内部php调用
     	if (isset($_SERVER['argv'][1])){
     		if ($_SERVER['argv'][1]=='task'){
-    			Router::Controller("\\AppMain\\controller\\Task\\" . $_SERVER['argv'][2])->$_SERVER['argv'][3]();
+    			Router::Controller("Task." . $_SERVER['argv'][2])->$_SERVER['argv'][3]();
     			exit;
     		}
     	}

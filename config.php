@@ -103,8 +103,11 @@ return [
        ),
        //以上配置项，是从接口包中alipay.config.php 文件中复制过来，进行配置；
 
-    'ALIPAY'   =>array(//这里是卖家的支付宝账号，也就是你申请接口时注册的支付宝账号
-      'seller_email'=>'pay@xxx.com',
+    'ALIPAY'   =>array(
+      //付款账户名
+      'account_name'=>'支付宝名字名字名字',
+      //付款账号
+      'email'=>'pay@xxx.com',
       //这里是异步通知页面url，提交到项目的Pay控制器的notifyurl方法；
       'notify_url'=>'http://www.xxx.com/Pay/notifyurl',
       //这里是页面跳转通知url，提交到项目的Pay控制器的returnurl方法；
