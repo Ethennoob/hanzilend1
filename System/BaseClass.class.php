@@ -7,6 +7,7 @@ abstract class BaseClass {
     private $pageInfo;
     //private $tableMap = array();  //表名路由
     static $BD=null;
+    static $modesl=null;
     
     public $mapTable=[];
     
@@ -31,10 +32,27 @@ abstract class BaseClass {
     	}
     	
     	if ($tableName !== null){
+    		self::$BD[$db]->initSqlStmt();
     		self::$BD[$db]->setTable($tableName);
     	}
     	
     	return self::$BD[$db];
+    }
+    
+    
+    /**
+     * 实例化model层
+     * @param string $class
+     */
+    public function model($class){
+        $class = str_replace(array('.', '#'), array('\\', '.'), $class);
+        
+        if (!isset(self::$modesl[$class]) || self::$modesl[$class] === null){
+            $path='\\AppMain\\model\\'.$class. 'Model';
+            self::$modesl[$class]=\System\Router::getClass($path);
+        }
+
+        return self::$modesl[$class];
     }
 
     /**
@@ -270,7 +288,7 @@ abstract class BaseClass {
 		}
         
         $returnData=[
-        		"errcode" => $this->errcode, 
+        		"errcode" => intval($this->errcode), 
         		"errmsg" => $errmsg, 
         		'data' => $data, 
         		'isImportant' => $isImportant ,
@@ -348,9 +366,10 @@ abstract class BaseClass {
     		self::$viewDataTemp = $data;
     	}
 
-    	$requestPath=__ROOT__.'/AppMain/view/'.Entrance::$module.'/'.Entrance::$class.'/'.Entrance::$function.'.php';
+    	$requestPath=__ROOT__.'/AppMain/view/'.Router::$module.'/'.Router::$class.'/'.Router::$function.'.php';
 		$this->viewData=json_encode(self::$viewDataTemp);
     	define('STATIC_PATH',$this->config('STATIC_PATH'));
+    	define('VIEW_PATH',__ROOT__.'/AppMain/view');
         require $requestPath;
         exit;
     }
@@ -381,25 +400,43 @@ abstract class BaseClass {
      * @param array $isHelper 判断$dataClass是否Helper类
      * @return false|array 返回数据列表，失败返回false
      */
-    protected function getOnePageData(&$pageInfo, &$dataClass, $listFunc, $lengFunc = null, array $params = null, $isHelper = false) {
-    	$pageInfo->psize = isset($_REQUEST["psize"]) ? $_REQUEST["psize"] : 15;
+    protected function getOnePageData(&$pageInfo, &$dataClass, $listFunc, $lengFunc = null, array $params = null, $isHelper = false, $custom=false) {
+    	$pageInfo->psize = isset($_REQUEST["psize"]) ? intval($_REQUEST["psize"]) : 15;
     	$rt = false;
     	if (null == $lengFunc)
     		$lengFunc = $listFunc . "Length";
-    	$pn = isset($_REQUEST["pn"]) ? $_REQUEST["pn"] : 1;
+    	$pn = isset($_REQUEST["pn"]) ? intval($_REQUEST["pn"]) : 1;
     	if (!$pn)
-    		$pn = "1";
+    		$pn = 1;
     
     	$pageInfo->num = intval($pn);
 
     	$pageInfo->dataSize = call_user_func_array([$dataClass, $lengFunc], (array) $params);
     	if ($pageInfo->dataSize > 0) {
     		$begin = ($pageInfo->num - 1) * $pageInfo->psize; //从第N笔开始检索
-    		if ($isHelper) {
-    			\System\database\MultiBaseTable::setMultiSqlStmt(["begin" => $begin, "size" => $pageInfo->psize]);
-    		} else {
-    			$dataClass->setSqlStmt(["begin" => $begin, "size" => $pageInfo->psize]);
+    		$end = $pageInfo->num * $pageInfo->psize;
+    		
+    		//计算总页数
+    		$pageInfo->totalPage=ceil($pageInfo->dataSize / $pageInfo->psize);
+    		
+    		//非自定义方法，使用sql分页
+    		if (!$custom){
+    			if ($isHelper) {
+    				\System\database\MultiBaseTable::setMultiSqlStmt(["begin" => $begin, "size" => $pageInfo->psize]);
+    			} else {
+    				$dataClass->setSqlStmt(["begin" => $begin, "size" => $pageInfo->psize]);
+    			}
     		}
+    		else{
+    			$paramss=[$begin,$end-1]; //开始数,结束数
+    			if ($params!=null){
+    			    $params=array_merge($paramss,$params);
+    			}
+    			else{
+    			    $params=$paramss;
+    			}
+    		}
+    		
     		$rt = call_user_func_array([ $dataClass, $listFunc], (array) $params);
     		if (!$rt) {
     			$this->error = "无法获取数据";
