@@ -51,15 +51,16 @@ class MyVerify {
     				        $rt=false;
     					}
     					else{
-    						$rt=true;
+    					    $rt=true;
     					}
+    					
     				}
     				else{
     					if (is_array($value) || intval($value) < 1){
     					    $rt=false;
     					}
     					else{
-    						$rt=true;
+    					    $rt=true;
     					}
     				}
     				
@@ -92,7 +93,7 @@ class MyVerify {
     				$rt=self::multiToOne($a, $data);
     				break;
     			default:
-    				if (!empty($value) || $value==0){
+    				if (!empty($value)){
     					$rt=true;
     				}
     				break;

@@ -17,9 +17,7 @@ abstract class BaseHelper extends BaseClass {
         //dump(\System\database\MultiBaseTable::$lastSql);
         
         if(\System\Entrance::config('IS_DB_DEBUG')==true){
-            $fileName = "database/sql_".date("Ymd");
-            $content='查询语句:'.\System\database\MultiBaseTable::$lastSql.PHP_EOL.'错误信息：'.\System\database\MultiBaseTable::$error;
-            \System\Log::write($content,$fileName);
+            sqlDebugLog(\System\database\MultiBaseTable::$lastSql,\System\database\MultiBaseTable::$error);
         }
         
         
@@ -42,9 +40,7 @@ abstract class BaseHelper extends BaseClass {
         $length=\System\database\MultiBaseTable::getMultiListLength($fieldsName);
         
         if(\System\Entrance::config('IS_DB_DEBUG')==true){
-            $fileName = "database/sql_".date("Ymd");
-        	$content='查询语句:'.\System\database\MultiBaseTable::$lastSql.PHP_EOL.'错误信息：'.\System\database\MultiBaseTable::$error;
-            \System\Log::write($content,$fileName);
+        	sqlDebugLog(\System\database\MultiBaseTable::$lastSql,\System\database\MultiBaseTable::$error);
         }
 
         return $length;

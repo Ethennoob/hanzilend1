@@ -1,7 +1,6 @@
 <?php
 namespace System\database;
 
-//已废弃
 class MultiBaseTable {
 
     private static $multiSqlStmt = [

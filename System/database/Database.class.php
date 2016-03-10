@@ -21,6 +21,7 @@ class Database {
     static public function closeConnection() {
         //不要关闭连接，留静态变量$conn销毁时关闭
     }
+
 }
 
 class Connection {

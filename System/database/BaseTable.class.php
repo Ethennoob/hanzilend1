@@ -60,7 +60,6 @@ class BaseTable {
     			"havingStmt" => null, //筛选条件。支持需要绑定参数的字符串，如id=? and name=?，绑定的参数由$bindParams指定。
     			"sqlFunction"=>null,   //sql函数 （传入数组）   ex：['count(*) as num']
     	];
-    	$this->alias=null;
     }
 
     /**
@@ -86,9 +85,10 @@ class BaseTable {
     }
     
     public function setTable($tableName,$isJoinTable=false){
+        //dump($this->db);
     	//如果不是连表操作
     	if (!$isJoinTable){
-    		//$this->initSqlStmt();
+    		$this->initSqlStmt();
     		$this->tableName=$tableName;
     	}
 
@@ -98,11 +98,10 @@ class BaseTable {
     		$tableName=trim($p[0]);
     		$alias=trim($p[1]);    		
     		$this->alias[$alias]=$tableName;
-    		$this->tableName=$tableName;
     	} 
     	
     	if (!array_key_exists($this->db.'-'.$tableName,$this->tableMap)){
-    		$class='\\Cache\\DBData\\'.$this->db.'\\'.$tableName;
+    		$class='\\AppMain\\data\\'.$this->db.'\\'.$tableName;
     		if (!class_exists($class)){
     			exit('不存在数据表');
     		}
@@ -335,7 +334,7 @@ class BaseTable {
     }
 
     /**
-     * 设置插入数据
+     * 设置插入/更新数据
      * @param array $data
      */
     public function save($data) {
@@ -748,17 +747,7 @@ class BaseTable {
         }
         
         if ($this->sqlStmt['joinType'] === null ){
-        	//$table="`$this->tableName`";
-        	
-        	if ($this->alias === null ){
-        		$table="`$this->tableName`";
-        	}
-        	else{
-        		foreach ($this->alias as $key => $v){
-        			$table= '`'.$v.'`'.' as '.$key;
-        		}
-        		//dump($table);exit;
-        	}
+        	$table="`$this->tableName`";
         }
         else{
         	foreach ($this->alias as $key => $v){
@@ -891,24 +880,15 @@ class BaseTable {
      */
     public function getListLength() {
         $rt = 0;
-		//dump($this->alias);
+
         if ($this->sqlStmt['joinType'] === null ){
-        	
-        	if ($this->alias === null ){
-        		$table="`$this->tableName`";
-        	}
-        	else{
-        		foreach ($this->alias as $key => $v){
-        			$table= '`'.$v.'`'.' as '.$key;
-        		}
-        		//dump($table);exit;
-        	}
+        	$table="`$this->tableName`";
         }
-		else{
+        else{
         	foreach ($this->alias as $key => $v){
         		$tableArr[]= $v.' as '.$key;
         	}
-        	
+        		
         	$tableArrCount=count($tableArr);
         	$i=0;
         	foreach ($tableArr as $key => $v){
@@ -1056,9 +1036,7 @@ class BaseTable {
      */
     private function degbugLog(){
     	if ($this->isDebug){
-    	    $fileName = "database/sql_".date("Ymd");
-    	    $content='查询语句:'.$this->lastSql.PHP_EOL.'错误信息：'.$this->error;
-    	    \System\Log::write($content,$fileName);
+    	    sqlDebugLog($this->lastSql,$this->error);   
     	    
     	    if (!empty($this->error)){
     	        throw new \Exception('查询语句：'.$this->lastSql.'     错误提示：'.$this->error);

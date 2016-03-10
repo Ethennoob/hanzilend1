@@ -14,9 +14,9 @@ class Log {
     	}
     	
     	$fileName = __ROOT__.'/Log/'.$fileName.'.'.$ext;
-    	   
+    
         if (dirExists(dirname($fileName))) {
-            file_put_contents($fileName, PHP_EOL.date("Y/m/d H:i:s") . '----' . PHP_EOL . $content, FILE_APPEND);
+            file_put_contents($fileName, date("Y/m/d H:i:s") . '----' . PHP_EOL . $content . PHP_EOL, FILE_APPEND);
         }
     }
     

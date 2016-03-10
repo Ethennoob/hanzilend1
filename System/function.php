@@ -14,6 +14,10 @@ function startSession() {
 	session_start();	
 }
 
+function logError($err) {
+    file_put_contents($_SERVER["DOCUMENT_ROOT"] . "/Log/error_log.txt", date("Y-m-d H:i:s") . "-----------" . $err . PHP_EOL, FILE_APPEND);
+}
+
 /**
  * POST 请求
  * @param string $url
@@ -351,7 +355,6 @@ function createGuid() {
     //. chr(125); // "}"
     return $uuid;
 }
-
 /*
  * 保留2位小数，不要四舍五入
  */
@@ -362,9 +365,8 @@ function cutTwoDecimal($k) {
     $result = $arr[0] . '.' . $number;
     return $result;
 }
-
 /**
- * 生成ID
+ * 生成新浪ID
  * @return string
  */
 function createID() {
@@ -374,10 +376,14 @@ function createID() {
     return '826' . substr($uniqid, 39, 9) . substr($uniqidM, 0, 8);
 }
 
-/**
+/*
  * 生成订单号
  */
 function getOrderNumber() {
+    /* $guid= md5(time()+uniqid());
+      $uniqid=uniqid($guid,false);
+      mt_srand((double) microtime() * 1000000);
+      return date('ymd') . str_pad(mt_rand(1, 99999), 5, '0', STR_PAD_LEFT).substr($uniqid, 39, 9).mt_rand(50001,90001); */
     $mtime = microtime() * 1000000;
     $time = time();
     $no1 = md5($mtime . $time);
@@ -386,7 +392,7 @@ function getOrderNumber() {
     return date('ymd') . $no2 . $no3;
 }
 
-/**
+/*
  * 获取下个月的当天时间，如果没有当天则返回下个月最后一天的时间格式
  * $date：传入时间戳
  * @return :字符串格式 ‘2015-12-25’或者时间戳
@@ -417,8 +423,7 @@ function getNextMonthDay($timestamp, $isReturnUXTime = false) {
     $returnTime = $isReturnUXTime ? strtotime($strDate) : $strDate;
     return $returnTime;
 }
-
-/**
+/*
  * N个月之后的当天时间
  * $timestamp 传入时间戳
  * $addMonth 月的个数
@@ -438,7 +443,7 @@ function getMonthDay($timestamp, $addMonth,$isReturnUXTime = false) {
         $firstday = $year . '-' . $month . '-01'; //echo $firstday.'---'.$month;exit;
         $lastday = date('Y-m-d', strtotime("$firstday +1 month -1 day"));
     } else {
-        $firstday = date('Y-m-01', strtotime(date('Y', $timestamp) . '-' . (date('m', $timestamp) + $addMonth) . '-01'));
+        $firstday = date('Y-m-01', strtotime(date('Y', $timestamp) . '-' . (date('m', $timestamp) + 1) . '-01'));
         $lastday = date('Y-m-d', strtotime("$firstday +1 month -1 day"));
     }
     $targetMonArr = getdate(strtotime($lastday));
@@ -454,24 +459,15 @@ function getMonthDay($timestamp, $addMonth,$isReturnUXTime = false) {
     return $returnTime;
 }
 
-function getRandChar($length){
-	$str = null;
-	$strPol = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz";
-	$max = strlen($strPol)-1;
-
-	for($i=0;$i<$length;$i++){
-		$str.=$strPol[rand(0,$max)];//rand($min,$max)生成介于min和max两个数之间的一个随机整数
-	}
-
-	return $str;
-}
-
-function  filterfield($field,$data){
-	$return=array();
-	foreach ($field as $key=>$v){
-		if(array_key_exists($v,$data)){
-			$return[$v]=$data[$v];
-		}
-	}
-	return $return;
+/**
+ * 开启sql debug时纪录数据库操作
+ * @param string $sql
+ * @param string $error
+ */
+function sqlDebugLog($sql,$error=''){
+    $fileName=__ROOT__."/Log/database/sql_".date("Ymd").'.txt';
+    
+    if (dirExists(dirname($fileName))){
+        file_put_contents($fileName, date("Y/m/d H:i:s") . '----' .PHP_EOL. $sql .PHP_EOL.$error.PHP_EOL, FILE_APPEND);
+    }
 }

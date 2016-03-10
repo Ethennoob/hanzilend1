@@ -4,7 +4,13 @@ class Entrance {
 	static $loadConfig=null;
 	static $loadConvert=null;
 	
-	public static function action() {
+	//---美化url参数
+	static $module = "";
+    static $class = "";
+    static $function = "";
+	
+	
+    public static function action() {
         // 注册AUTOLOAD方法
         spl_autoload_register(['self','autoload']);
         define('_DOMAIN_', empty($_SERVER["HTTP_HOST"])?'api.grlend.com':$_SERVER["HTTP_HOST"]);
@@ -14,7 +20,7 @@ class Entrance {
         error_reporting(E_ALL);
         header("Content-type:text/html;charset=utf-8");
         header("PowerBy: Han-zi,Liang");
-        header("F-Version: 1.2");   //框架版本
+        header("F-Version: 1.0");   //框架版本
         
         //载入防xss和sql注入文件
         require_once 'waf.php';
@@ -29,9 +35,38 @@ class Entrance {
     }
     
     public static function start(){
+    	//美化url
+		if(!empty($_SERVER['PATH_INFO'])){
+    		$rewrite=explode("/",trim($_SERVER['PATH_INFO'],"/"));
+    		if (count($rewrite) >= 3){
+    			self::$module = $rewrite[0];
+    			self::$class = $rewrite[1];
+    			self::$function = $rewrite[2];
+    		}
+    	}
     	
+    	isset($_GET['m'])?self::$module=trim($_GET['m']):self::$module;
+    	isset($_GET['c'])?self::$class = trim($_GET['c']):self::$class;
+    	isset($_GET['f'])?self::$function = trim($_GET['f']):self::$function;
+
+		//扩展名分析
+		if(!empty(self::$function)){
+			if(strrpos(self::$function,'.htmlx') !== false){
+				self::$function=str_replace('.htmlx','',self::$function);
+			}
+		}
+
     	
-        
+    	//内部php调用
+    	if (isset($_SERVER['argv'][1])){
+    		if ($_SERVER['argv'][1]=='task'){
+    			Router::Controller("Task." . $_SERVER['argv'][2])->$_SERVER['argv'][3]();
+    			exit;
+    		}
+    	}
+    	
+        //载入中间件
+    	Router::getClass("\\AppMain\\middleware\\HttpMiddleware");
     	
         //载入路由
         Router::router();

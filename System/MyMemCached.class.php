@@ -1,11 +1,15 @@
 <?php
+/**
+ * Description of MemCached
+ *
+ * @author lzy
+ */
 namespace System;
 class MyMemCached {
 
     private static $memObj = null;
 	private static $type=null;   //使用memcache客户端状态（）
 	
-	public $lockPrefix='_lock';  //锁名前缀
 	public $isCompression=false; //是否启用压缩
     
     public function __construct() {
@@ -74,6 +78,7 @@ class MyMemCached {
         		return false;
         	}
         	
+            
             return $value;
         }
         return false;
@@ -131,66 +136,6 @@ class MyMemCached {
         if (isset(self::$memObj)) {
             self::$memObj->increment($key, $value);
         }
-    }
-    
-    /**
-     * 进行锁操作
-     * @param type  $lock_id
-     * @param integer $expire
-     */
-    public function Lock($lock_id,$expire=100){
-        $mkey = $this->lockPrefix. $lock_id;
-        for ($i = 0; $i < 10; $i ++) {
-            $flag = false;
-            try {
-                if (self::$type=='Memcached'){
-                    $flag = self::$memObj->add($mkey, '1', $expire);
-                }
-                elseif (self::$type=='Memcache'){
-                    if ($this->isCompression){
-                        $flag = self::$memObj->add($mkey, '1', MEMCACHE_COMPRESSED ,$expire);
-                    }
-                    else{
-                        $flag = self::$memObj->add($mkey, '1', 0 ,$expire);
-                    }
-                }
-             } catch (\Exception $e) {
-                $flag = false;
-                // log
-            }
-            if ($flag) {
-                return true;
-            } else {
-                // wait for 0.3 seconds
-                usleep(300000);
-            }
-        }
-        return false;
-    }
-
-    /**
-     * 判断锁状态
-     * @param type $lock_id            
-     * @return boolean
-     */
-    public function isLock($lock_id){
-        $mkey = $this->lockPrefix. $lock_id;
-        $ret = self::$memObj->get($mkey);
-        if (empty($ret) || $ret === false) {
-            return false;
-        }
-        return true;
-    }
-
-    /**
-     * 解锁
-     * @param type $lock_id            
-     * @return type
-     */
-    public function unLock($lock_id){
-        $mkey = $this->lockPrefix. $lock_id;
-        $ret = self::$memObj->delete($mkey);
-        return $ret;
     }
 }
 
